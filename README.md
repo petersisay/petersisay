@@ -227,7 +227,7 @@ Whether you have an opportunity, an open-source collaboration idea, or just want
 |:---|:---|:---:|
 | 🌐 **Personal Website** | `petros-portfolio-one.vercel.app` | [**Explore Portfolio**](https://petros-portfolio-one.vercel.app) |
 | 💼 **LinkedIn** | `Petros Sisay Gelan` | [**Connect on LinkedIn**](https://www.linkedin.com/in/petros-sisay-gelan/) |
-| 📧 **Direct Email** | `petrossisay7164@gmail.com` | [**Send Email**](mailto:petrossisay7164@gmail.com) |
+| 📧 **Direct Email** | `petrossisay7164@gmail.com` | [**Send Email**](mailto:petrossisay1646@gmail.com) |
 | 💬 **Telegram** | `@Petros_sisay` | [**Direct Message**](https://t.me/Petros_sisay) |
 | 🐙 **GitHub** | `@petersisay` | [**Follow Profile**](https://github.com/petersisay) |
 
