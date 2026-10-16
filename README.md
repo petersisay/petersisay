@@ -6,7 +6,7 @@
 </a>
 
 <p align="center">
-  <strong>4th Year Software Engineering Student @ Adama Science and Technology University (ASTU)</strong><br />
+  <strong>4th Year Software Engineering Student at Adama Science and Technology University (ASTU)</strong><br />
   <em>Passionate about crafting scalable full-stack web applications, resilient REST APIs, and native mobile experiences.</em>
 </p>
 
