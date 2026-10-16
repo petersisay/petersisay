@@ -6,7 +6,7 @@
 </a>
 
 <p align="center">
-  <strong>4th Year Software Engineering Student @ Adama Science and Technology University (ASTU)</strong><br />
+  <strong>4th Year Software Engineering Student @ Adama Science and Technology University(ASTU)</strong><br />
   <em>Passionate about crafting scalable full-stack web applications, resilient REST APIs, and native mobile experiences.</em>
 </p>
 
@@ -39,7 +39,7 @@
 
 ## ⚡ About Me
 
-I am a prospective **Software Engineer** currently completing my final year at **Adama Science and Technology University (ASTU)**. I love turning complex problem spaces into reliable, performant, and beautifully designed digital applications.
+I am a prospective **Software Engineer** currently completing my final year at **Adama Science and Technology University(ASTU)**. I love turning complex problem spaces into reliable, performant, and beautifully designed digital applications.
 
 - 🎓 **Academic Foundation:** Senior student in Software Engineering with strong foundations in data structures, algorithms, system architecture, database optimization, and object-oriented design.
 - 🌐 **Modern Full-Stack Web:** Developing fast, modular web applications utilizing **React 19**, **TypeScript**, **Tailwind CSS v4**, and **Vite**, backed by **Node.js** and **Express.js** RESTful architectures.
@@ -63,7 +63,7 @@ I am a prospective **Software Engineer** currently completing my final year at *
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-### 🎨 Frontend & UI Frameworks
+### 🎨 Frontend and UI Frameworks
 [![React 19](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
 [![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Vite](https://img.shields.io/badge/Vite_Build-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
