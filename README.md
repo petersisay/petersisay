@@ -221,12 +221,12 @@ I am a prospective **Software Engineer** currently completing my final year at *
 
 <div align="center">
 
-Whether you have an opportunity, an open-source collaboration idea, or just want to chat about tech, feel free to reach out!
+Whether you have an opportunity, an open-source collaboration idea, or just want to chat about tech, feel free to reach out!!!
 
 | Platform | Details | Quick Action |
 |:---|:---|:---:|
 | 🌐 **Personal Website** | `petros-portfolio-one.vercel.app` | [**Explore Portfolio**](https://petros-portfolio-one.vercel.app) |
-| 💼 **LinkedIn** | `Petros Sisay Gelan` | [**Connect on LinkedIn**](https://www.linkedin.com/in/petros-sisay-gelan/) |
+| 💼 **LinkedIn** | `Petros Sisay Gelan` | [**Connect on LinkedIn**](https://www.linkedin.com/in/petros-sisay |
 | 📧 **Direct Email** | `petrossisay7164@gmail.com` | [**Send Email**](mailto:petrossisay1646@gmail.com) |
 | 💬 **Telegram** | `@Petros_sisay` | [**Direct Message**](https://t.me/Petros_sisay) |
 | 🐙 **GitHub** | `@petersisay` | [**Follow Profile**](https://github.com/petersisay) |
