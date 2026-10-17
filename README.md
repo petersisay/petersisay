@@ -201,7 +201,7 @@ I am a prospective **Software Engineer** currently completing my final year at *
 
 <!-- GitHub Streak Stats with Explicit High-Contrast Colors (Vivid White & Cyan) -->
 <p align="center">
-  <img width="870" src="https://github-readme-streak-stats.herokuapp.com/?user=petersisay&theme=dark&background=0D1117&border=30363D&stroke=38BDF8&ring=38BDF8&fire=F59E0B&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=38BDF8&sideLabels=94A3B8&dates=94A3B8" alt="GitHub Streak Stats" />
+  <img width="870" src="https://streak-stats.demolab.com/?user=petersisay&theme=dark&background=0D1117&border=30363D&stroke=38BDF8&ring=38BDF8&fire=F59E0B&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=38BDF8&sideLabels=94A3B8&dates=94A3B8" alt="GitHub Streak Stats" />
 </p>
 
 </div>
