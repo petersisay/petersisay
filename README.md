@@ -2,7 +2,7 @@
 
 <!-- Animated Header Title with Typewriter SVG -->
 <a href="https://github.com/petersisay">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1000&color=38BDF8&center=true&vCenter=true&width=760&height=70&lines=Hi%2C+I'm+Petros+Sisay+Gelan+%F0%9F%91%8B;Full-Stack+Software+Engineer+%26+Mobile+Developer;Architecting+TemariHub+%E2%80%A2+Lehulu+%E2%80%A2+Revola+%E2%80%A2+PetroFlow;React+19+%E2%80%A2+TypeScript+%E2%80%A2+Node.js+%E2%80%A2+Express+%E2%80%A2+Flutter;ASTU+Senior+Software+Engineering+Student+(Ethiopia)" alt="Typing Banner" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=21&pause=1200&color=38BDF8&center=true&vCenter=true&width=720&height=56&lines=Hi%2C+I'm+Petros+Sisay+Gelan+%F0%9F%91%8B;Full-Stack+Engineer+%26+Mobile+Developer;Building+TemariHub+%E2%80%A2+Lehulu+%E2%80%A2+Revola;React+19+%E2%80%A2+Flutter+%E2%80%A2+TypeScript+%E2%80%A2+Node.js;ASTU+Senior+Software+Engineering+Student" alt="Typing Banner" />
 </a>
 
 <p align="center">
