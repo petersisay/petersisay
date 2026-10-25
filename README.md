@@ -2,19 +2,19 @@
 
 <!-- Animated Header Title with Typewriter SVG -->
 <a href="https://github.com/petersisay">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&height=70&lines=Hi%2C+I'm+Petros+Sisay+Gelan+%F0%9F%91%8B;Full-Stack+Software+Engineer;Building+Modern+Web+%26+Mobile+Apps;React+19+%E2%80%A2+TypeScript+%E2%80%A2+Node.js+%E2%80%A2+Flutter;ASTU+Software+Engineering+Student" alt="Typing Banner" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1000&color=38BDF8&center=true&vCenter=true&width=760&height=70&lines=Hi%2C+I'm+Petros+Sisay+Gelan+%F0%9F%91%8B;Full-Stack+Software+Engineer+%26+Mobile+Developer;Architecting+TemariHub+%E2%80%A2+Lehulu+%E2%80%A2+Revola+%E2%80%A2+PetroFlow;React+19+%E2%80%A2+TypeScript+%E2%80%A2+Node.js+%E2%80%A2+Express+%E2%80%A2+Flutter;ASTU+Senior+Software+Engineering+Student+(Ethiopia)" alt="Typing Banner" />
 </a>
 
 <p align="center">
-  <strong>4th Year Software Engineering Student at Adama Science and Technology University (ASTU)</strong><br />
-  <em>Passionate about crafting scalable full-stack web applications, resilient REST APIs, and native mobile experiences.</em>
+  <strong>Senior Software Engineering Student @ Adama Science and Technology University (ASTU)</strong><br />
+  <em>Engineering dependable, production-grade full-stack web platforms, REST APIs, and native mobile applications.</em>
 </p>
 
 <!-- Quick Profile Status Badges -->
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Open_to_Opportunities-10B981?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" />
   <img src="https://img.shields.io/badge/Location-Adama%2C_Ethiopia-38BDF8?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
-  <img src="https://img.shields.io/badge/Degree-B.Sc._Software_Engineering-6366F1?style=for-the-badge&logo=academia&logoColor=white" alt="Degree" />
+  <img src="https://img.shields.io/badge/Focus-Full--Stack_%26_Mobile_Systems-6366F1?style=for-the-badge&logo=codeforces&logoColor=white" alt="Focus" />
 </p>
 
 <!-- Quick Social Links Bar -->
@@ -39,14 +39,14 @@
 
 ## ⚡ About Me
 
-I am a prospective **Software Engineer** currently completing my final year at **Adama Science and Technology University (ASTU)**. I love turning complex problem spaces into reliable, performant, and beautifully designed digital applications.
+I am a senior **Software Engineering student** at **Adama Science and Technology University (ASTU)** in Ethiopia. I build robust digital platforms and mobile applications designed to solve real-world community, educational, and economic challenges.
 
-- 🎓 **Academic Foundation:** Senior student in Software Engineering with strong foundations in data structures, algorithms, system architecture, database optimization, and object-oriented design.
-- 🌐 **Modern Full-Stack Web:** Developing fast, modular web applications utilizing **React 19**, **TypeScript**, **Tailwind CSS v4**, and **Vite**, backed by **Node.js** and **Express.js** RESTful architectures.
-- 📱 **Cross-Platform Mobile:** Engineering intuitive mobile applications with **Flutter 3** and **Dart**, applying Clean Architecture principles and Riverpod state management.
-- 💾 **Database Systems:** Skilled in modeling, querying, and indexing data using **MongoDB Atlas** (Mongoose ORM, geospatial queries) and **MySQL** (relational schemas, JDBC).
-- 🧪 **Code Quality & Testing:** Dedicated to clean code standards, comprehensive unit/integration testing (197+ Vitest tests in production monorepos), and Git-driven collaboration.
-- 🚀 **Continuous Growth:** Continuously exploring AI integrations, modern developer toolchains, and real-world circular-economy systems.
+- 🎓 **Academic Excellence:** Final-year student focusing on software architecture, distributed systems, relational & document databases, and algorithms.
+- 🌍 **Purpose-Driven Engineering:** Creating practical digital ecosystems like **TemariHub** (STEM student career enablement) and **Lehulu** (local services marketplace).
+- 💻 **Modern Full-Stack Web:** End-to-end web engineering with **React 19**, **TypeScript (Strict)**, **Tailwind CSS v4**, **Node.js**, and **Express.js**.
+- 📱 **Cross-Platform Mobile:** Native mobile applications built with **Flutter 3** and **Dart**, structured around Clean Architecture and Riverpod state management.
+- 💾 **Database & Geospatial Architecture:** Advanced schema modeling and indexing with **MongoDB Atlas** (`2dsphere` geo-queries) and **MySQL** (relational normalization, JDBC).
+- 🧪 **High Engineering Standards:** Passionate about test-driven confidence (197+ automated Vitest suites in production monorepos), CSRF protection, secure sessions, and clean Git workflows.
 
 ---
 
@@ -74,12 +74,11 @@ I am a prospective **Software Engineer** currently completing my final year at *
 [![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
 [![RESTful APIs](https://img.shields.io/badge/RESTful_APIs-2563EB?style=for-the-badge&logo=fastapi&logoColor=white)](#)
 [![JWT Authentication](https://img.shields.io/badge/JWT_Auth-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white)](https://jwt.io/)
-[![Java Servlets](https://img.shields.io/badge/Jakarta_Servlets-ED8B00?style=for-the-badge&logo=apachetomcat&logoColor=white)](#)
+[![Clean Architecture](https://img.shields.io/badge/Clean_Architecture-10B981?style=for-the-badge&logo=codewars&logoColor=white)](#)
 
 ### 📱 Mobile Ecosystem
 [![Flutter](https://img.shields.io/badge/Flutter_3-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/)
 [![Riverpod](https://img.shields.io/badge/Riverpod_State-2563EB?style=for-the-badge&logo=flutter&logoColor=white)](https://riverpod.dev/)
-[![Clean Architecture](https://img.shields.io/badge/Clean_Architecture-10B981?style=for-the-badge&logo=codewars&logoColor=white)](#)
 [![Material 3](https://img.shields.io/badge/Material_3_Design-7C4DFF?style=for-the-badge&logo=material-design&logoColor=white)](https://m3.material.io/)
 
 ### 🗄️ Databases & Persistence
@@ -100,19 +99,52 @@ I am a prospective **Software Engineer** currently completing my final year at *
 
 ---
 
-## 🌟 Featured Engineering Projects
+## 🌟 Flagship Engineering Projects
 
 <table>
+  <!-- Row 1: TemariHub & Lehulu -->
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎓 TemariHub (ተማሪሀብ) — STEM Opportunity Platform</h3>
+      <p><em>Full-stack opportunity discovery and 7-stage application tracking platform crafted specifically for Ethiopian university students in STEM and technology disciplines.</em></p>
+      <ul>
+        <li><strong>Architecture & Stack:</strong> React 19, TypeScript (Strict), Node.js, Express, and MongoDB Atlas.</li>
+        <li><strong>Student Career Tracker:</strong> 7-stage kanban-style pipeline, personal notes, deadline telemetry, and bookmarks.</li>
+        <li><strong>Bilingual Support:</strong> Dynamic English and Amharic UI with persistent locale management.</li>
+        <li><strong>Security & Testing:</strong> 125+ automated integration tests, CSRF protection, secure sessions, and admin moderation queue.</li>
+      </ul>
+      <p>
+        <a href="https://temari-hub.vercel.app"><b>🌐 Live Platform</b></a> • 
+        <a href="https://github.com/petersisay/TemariHub"><b>💻 GitHub Repository</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛠️ Lehulu (ለሁሉ) — Ethiopian Services Marketplace</h3>
+      <p><em>Production-grade digital marketplace connecting households and businesses with verified local service professionals across Adama, Bishoftu, and Addis Ababa.</em></p>
+      <ul>
+        <li><strong>Architecture & Stack:</strong> TypeScript, React, Tailwind CSS, Express REST API, and MongoDB Atlas.</li>
+        <li><strong>Geospatial Service Boundaries:</strong> Location-based provider discovery and job matching across municipal zones.</li>
+        <li><strong>Three-Role Governance:</strong> Dedicated portals for Customers, Service Providers, and Verification Admins.</li>
+        <li><strong>Trust Architecture:</strong> Dispute management, verified credential reviews, and structured pricing estimates.</li>
+      </ul>
+      <p>
+        <a href="https://lehulu-two.vercel.app"><b>🌐 Live Platform</b></a> • 
+        <a href="https://github.com/petersisay/lehulu"><b>💻 GitHub Repository</b></a>
+      </p>
+    </td>
+  </tr>
+
+  <!-- Row 2: Revola & PetroFlow -->
   <tr>
     <td width="50%" valign="top">
       <h3>🏗️ Revola — Circular Materials Marketplace</h3>
-      <p><em>Full-stack circular economy marketplace designed to streamline the recovery, trade, and logistics of reclaimed construction materials in Adama, Ethiopia.</em></p>
+      <p><em>Managed circular marketplace engineered to streamline the recovery, trade, and logistics of reclaimed construction materials in Adama, Ethiopia.</em></p>
       <ul>
-        <li><strong>Full-Stack Architecture:</strong> React 19, TypeScript, Tailwind CSS v4, and Express REST API with MongoDB Atlas.</li>
-        <li><strong>Geospatial Discovery:</strong> Interactive depot locator using Leaflet & OpenStreetMap powered by MongoDB <code>2dsphere</code> index.</li>
+        <li><strong>Full-Stack Architecture:</strong> React 19, TypeScript, Tailwind CSS v4, Express REST API, and MongoDB Atlas.</li>
+        <li><strong>Geospatial Depot Discovery:</strong> Leaflet & OpenStreetMap locator powered by MongoDB <code>2dsphere</code> index.</li>
         <li><strong>Role-Based Access:</strong> Isolated Buyer, Seller, and Staff portals with JWT and Google OAuth 2.0.</li>
         <li><strong>Ethiopian Payments:</strong> Chapa API (online ETB) + CBE bank receipt verification workflows.</li>
-        <li><strong>Mobile Companion:</strong> Native Flutter & Riverpod cross-platform app for on-site material inspection.</li>
+        <li><strong>Mobile Companion:</strong> Native Flutter & Riverpod cross-platform app for field inspections.</li>
       </ul>
       <p>
         <a href="https://adama-materials-e-commerce.vercel.app"><b>🌐 Live Web App</b></a> • 
@@ -137,6 +169,8 @@ I am a prospective **Software Engineer** currently completing my final year at *
       </p>
     </td>
   </tr>
+
+  <!-- Row 3: Guided Annual Planner & Portfolio v2 -->
   <tr>
     <td width="50%" valign="top">
       <h3>📖 Guided Annual Planner & Sanctuary</h3>
@@ -172,17 +206,6 @@ I am a prospective **Software Engineer** currently completing my final year at *
 
 ---
 
-## 📂 More Projects Across My Journey
-
-| Project | Description | Tech Stack | Quick Links |
-|:---|:---|:---|:---:|
-| **[GroupChatApp](https://github.com/petersisay/GroupChatApp)** | Real-time multi-client desktop chat system over TCP sockets with multithreaded server broadcasting and Java Swing UI. | `Java` `TCP Sockets` `Multithreading` `Swing` | [Repository](https://github.com/petersisay/GroupChatApp) |
-| **[StudentRegisterSystem](https://github.com/petersisay/StudentRegisterSystem)** | Academic MVC web application for student record management with CRUD operations, form validation, and relational database persistence. | `Java` `Jakarta Servlets` `JSP` `MySQL` `Tomcat` | [Repository](https://github.com/petersisay/StudentRegisterSystem) |
-| **[Promodoro-Timer](https://github.com/petersisay/promodoro-timer1)** | Sleek glassmorphism Pomodoro timer web app featuring customizable focus/break intervals, session tracking, and Web Audio API alerts. | `HTML5` `CSS3` `JavaScript` `Audio API` | [Repository](https://github.com/petersisay/promodoro-timer1) • [Live Demo](https://promodoro-timer1.vercel.app) |
-| **[ACE-Meklit](https://github.com/petersisay/ACE-Meklit)** | Responsive corporate website built for a commercial client with custom layout, accessible navigation, and optimized assets. | `HTML5` `CSS3` `JavaScript` `Flexbox/Grid` | [Repository](https://github.com/petersisay/ACE-Meklit) • [Live Demo](https://ace-meklit.netlify.app/) |
-
----
-
 ## 📊 GitHub Analytics & Activity
 
 <div align="center">
@@ -201,7 +224,7 @@ I am a prospective **Software Engineer** currently completing my final year at *
 
 <!-- GitHub Streak Stats with Explicit High-Contrast Colors (Vivid White & Cyan) -->
 <p align="center">
-  <img width="870" src="https://streak-stats.demolab.com/?user=petersisay&theme=dark&background=0D1117&border=30363D&stroke=38BDF8&ring=38BDF8&fire=F59E0B&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=38BDF8&sideLabels=94A3B8&dates=94A3B8" alt="GitHub Streak Stats" />
+  <img width="870" src="https://github-readme-streak-stats.herokuapp.com/?user=petersisay&theme=dark&background=0D1117&border=30363D&stroke=38BDF8&ring=38BDF8&fire=F59E0B&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=38BDF8&sideLabels=94A3B8&dates=94A3B8" alt="GitHub Streak Stats" />
 </p>
 
 </div>
@@ -211,7 +234,7 @@ I am a prospective **Software Engineer** currently completing my final year at *
 ## 🎯 Engineering Mindset & Goals
 
 - 💡 **Philosophy:** *"Doing small things before taking major steps compounds over time to create a huge impact."*
-- 🔭 **Current Focus:** Deepening expertise in event-driven backend systems, cloud microservices, and reactive cross-platform mobile patterns.
+- 🔭 **Current Focus:** Scaling Ethiopian civic & commercial platforms (**TemariHub** and **Lehulu**), refining distributed backend architectures, and reactive cross-platform mobile patterns.
 - 🎯 **Career Target:** Seeking **Software Engineering Internships** and **Junior Full-Stack Developer** roles where I can build impactful products and collaborate with world-class engineering teams.
 - 💬 **Let's Talk About:** React 19 architecture, TypeScript type modeling, Node.js API optimization, Flutter Riverpod patterns, and database design.
 
@@ -221,13 +244,13 @@ I am a prospective **Software Engineer** currently completing my final year at *
 
 <div align="center">
 
-Whether you have an opportunity, an open-source collaboration idea, or just want to chat about tech, feel free to reach out!!!
+Whether you have an opportunity, an open-source collaboration idea, or just want to chat about tech, feel free to reach out!
 
 | Platform | Details | Quick Action |
 |:---|:---|:---:|
 | 🌐 **Personal Website** | `petros-portfolio-one.vercel.app` | [**Explore Portfolio**](https://petros-portfolio-one.vercel.app) |
-| 💼 **LinkedIn** | `Petros Sisay Gelan` | [**Connect on LinkedIn**](https://www.linkedin.com/in/petros-sisay) |
-| 📧 **Direct Email** | `petrossisay7164@gmail.com` | [**Send Email**](mailto:petrossisay1646@gmail.com) |
+| 💼 **LinkedIn** | `Petros Sisay Gelan` | [**Connect on LinkedIn**](https://www.linkedin.com/in/petros-sisay-gelan/) |
+| 📧 **Direct Email** | `petrossisay7164@gmail.com` | [**Send Email**](mailto:petrossisay7164@gmail.com) |
 | 💬 **Telegram** | `@Petros_sisay` | [**Direct Message**](https://t.me/Petros_sisay) |
 | 🐙 **GitHub** | `@petersisay` | [**Follow Profile**](https://github.com/petersisay) |
 
