@@ -214,17 +214,17 @@ I am a senior **Software Engineering student** at **Adama Science and Technology
 <table border="0" style="border: none;">
   <tr style="border: none;">
     <td style="border: none;" align="center">
-      <img width="460" src="https://github-readme-stats.vercel.app/api?username=petersisay&show_icons=true&bg_color=0D1117&title_color=38BDF8&text_color=E2E8F0&icon_color=38BDF8&border_color=30363D&count_private=true&custom_title=Petros%27s%20GitHub%20Stats" alt="Petros's GitHub Stats" />
+      <img width="460" src="./assets/github-stats.svg" alt="Petros's GitHub Stats" />
     </td>
     <td style="border: none;" align="center">
-      <img width="400" src="https://github-readme-stats.vercel.app/api/top-langs/?username=petersisay&layout=compact&bg_color=0D1117&title_color=38BDF8&text_color=E2E8F0&border_color=30363D&hide=html,css,python&langs_count=6" alt="Most Used Languages" />
+      <img width="400" src="./assets/top-langs.svg" alt="Most Used Languages" />
     </td>
   </tr>
 </table>
 
 <!-- GitHub Streak Stats with Explicit High-Contrast Colors (Vivid White & Cyan) -->
 <p align="center">
-  <img width="870" src="https://github-readme-streak-stats.herokuapp.com/?user=petersisay&theme=dark&background=0D1117&border=30363D&stroke=38BDF8&ring=38BDF8&fire=F59E0B&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=38BDF8&sideLabels=94A3B8&dates=94A3B8&timezone=Africa%2FAddis_Ababa" alt="GitHub Streak Stats" />
+  <img width="870" src="./assets/streak-stats.svg" alt="GitHub Streak Stats" />
 </p>
 
 </div>
