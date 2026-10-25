@@ -25,7 +25,7 @@
   <a href="https://www.linkedin.com/in/petros-sisay-gelan/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:petrossisay7164@gmail.com">
+  <a href="mailto:petrossisay1646@gmail.com">
     <img src="https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://t.me/Petros_sisay" target="_blank">
@@ -250,7 +250,7 @@ Whether you have an opportunity, an open-source collaboration idea, or just want
 |:---|:---|:---:|
 | 🌐 **Personal Website** | `petros-portfolio-one.vercel.app` | [**Explore Portfolio**](https://petros-portfolio-one.vercel.app) |
 | 💼 **LinkedIn** | `Petros Sisay Gelan` | [**Connect on LinkedIn**](https://www.linkedin.com/in/petros-sisay-gelan/) |
-| 📧 **Direct Email** | `petrossisay7164@gmail.com` | [**Send Email**](mailto:petrossisay7164@gmail.com) |
+| 📧 **Direct Email** | `petrossisay1646@gmail.com` | [**Send Email**](mailto:petrossisay1646@gmail.com) |
 | 💬 **Telegram** | `@Petros_sisay` | [**Direct Message**](https://t.me/Petros_sisay) |
 | 🐙 **GitHub** | `@petersisay` | [**Follow Profile**](https://github.com/petersisay) |
 
