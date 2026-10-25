@@ -78,7 +78,7 @@ I am a senior **Software Engineering student** at **Adama Science and Technology
 
 ### 📱 Mobile Ecosystem
 [![Flutter](https://img.shields.io/badge/Flutter_3-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/)
-[![Riverpod](https://img.shields.io/badge/Riverpod_State-2563EB?style=for-the-badge&logo=flutter&logoColor=white)](https://riverpod.dev/)
+[![Riverpod](https://img.shields.io/badge/Riverpod_State-2563EB?style=for-the-badge&logo=flutter&logoColor=white)](https://pub.dev/packages/flutter_riverpod)
 [![Material 3](https://img.shields.io/badge/Material_3_Design-7C4DFF?style=for-the-badge&logo=material-design&logoColor=white)](https://m3.material.io/)
 
 ### 🗄️ Databases & Persistence
