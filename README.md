@@ -2,7 +2,7 @@
 
 <!-- Animated Header Title with Typewriter SVG -->
 <a href="https://github.com/petersisay">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=21&pause=1200&color=38BDF8&center=true&vCenter=true&width=720&height=56&lines=Hi%2C+I'm+Petros+Sisay+Gelan+%F0%9F%91%8B;Full-Stack+Engineer+%26+Mobile+Developer;Building+TemariHub+%E2%80%A2+Lehulu+%E2%80%A2+Revola;React+19+%E2%80%A2+Flutter+%E2%80%A2+TypeScript+%E2%80%A2+Node.js;ASTU+Senior+Software+Engineering+Student" alt="Typing Banner" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=21&pause=1200&color=38BDF8&center=true&vCenter=true&width=720&height=56&lines=Hi%2C+I'm+Petros+Sisay+Gelan+%F0%9F%91%8B;Full-Stack+Engineer+%26+Mobile+Developer;Building+CodeTogether+%E2%80%A2+TemariHub+%E2%80%A2+Lehulu;React+19+%E2%80%A2+Flutter+%E2%80%A2+TypeScript+%E2%80%A2+Java;ASTU+Senior+Software+Engineering+Student" alt="Typing Banner" />
 </a>
 
 <p align="center">
@@ -42,11 +42,11 @@
 I am a senior **Software Engineering student** at **Adama Science and Technology University (ASTU)** in Ethiopia. I build robust digital platforms and mobile applications designed to solve real-world community, educational, and economic challenges.
 
 - 🎓 **Academic Excellence:** Final-year student focusing on software architecture, distributed systems, relational & document databases, and algorithms.
-- 🌍 **Purpose-Driven Engineering:** Creating practical digital ecosystems like **TemariHub** (STEM student career enablement) and **Lehulu** (local services marketplace).
+- 🌍 **Purpose-Driven Engineering:** Creating practical digital ecosystems like **CodeTogether** (real-time pair programming), **TemariHub** (STEM career enablement), and **Lehulu** (local services marketplace).
 - 💻 **Modern Full-Stack Web:** End-to-end web engineering with **React 19**, **TypeScript (Strict)**, **Tailwind CSS v4**, **Node.js**, and **Express.js**.
 - 📱 **Cross-Platform Mobile:** Native mobile applications built with **Flutter 3** and **Dart**, structured around Clean Architecture and Riverpod state management.
-- 💾 **Database & Geospatial Architecture:** Advanced schema modeling and indexing with **MongoDB Atlas** (`2dsphere` geo-queries) and **MySQL** (relational normalization, JDBC).
-- 🧪 **High Engineering Standards:** Passionate about test-driven confidence (197+ automated Vitest suites in production monorepos), CSRF protection, secure sessions, and clean Git workflows.
+- 💾 **Database & Enterprise Systems:** Relational schema design with **MySQL & JDBC** (Student Registration System) and document modeling with **MongoDB Atlas** (`2dsphere` geospatial indexing).
+- 🧪 **High Engineering Standards:** Passionate about test-driven confidence (125+ automated Vitest suites in production), CSRF protection, secure sessions, and clean Git workflows.
 
 ---
 
@@ -102,22 +102,39 @@ I am a senior **Software Engineering student** at **Adama Science and Technology
 ## 🌟 Flagship Engineering Projects
 
 <table>
-  <!-- Row 1: TemariHub & Lehulu -->
+  <!-- Row 1: CodeTogether & TemariHub -->
   <tr>
     <td width="50%" valign="top">
+      <h3>💻 CodeTogether — Real-Time Collaborative Code Editor</h3>
+      <p><em>Full-featured collaborative workspace engineered for remote pair programming with live concurrent code editing and integrated WebRTC communication.</em></p>
+      <ul>
+        <li><strong>Architecture & Stack:</strong> React, Vite, Node.js, Express, Socket.IO, and WebRTC.</li>
+        <li><strong>Live Operational Sync:</strong> Sub-millisecond code broadcast, multi-cursor awareness, and shared execution state.</li>
+        <li><strong>Integrated Audio & Video:</strong> Peer-to-peer WebRTC voice and video calls built directly into the editor.</li>
+        <li><strong>Developer Ergonomics:</strong> Multi-file tab management, syntax highlighting, and one-click ZIP project export.</li>
+      </ul>
+      <p>
+        <a href="https://github.com/petersisay/CodeTogether"><b>💻 GitHub Repository</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
       <h3>🎓 TemariHub (ተማሪሀብ) — STEM Opportunity Platform</h3>
-      <p><em>Full-stack opportunity discovery and 7-stage application tracking platform crafted specifically for Ethiopian university students in STEM and technology disciplines.</em></p>
+      <p><em>Full-stack opportunity discovery and 7-stage application tracking platform crafted specifically for Ethiopian university students in STEM disciplines.</em></p>
       <ul>
         <li><strong>Architecture & Stack:</strong> React 19, TypeScript (Strict), Node.js, Express, and MongoDB Atlas.</li>
         <li><strong>Student Career Tracker:</strong> 7-stage kanban-style pipeline, personal notes, deadline telemetry, and bookmarks.</li>
         <li><strong>Bilingual Support:</strong> Dynamic English and Amharic UI with persistent locale management.</li>
-        <li><strong>Security & Testing:</strong> 125+ automated integration tests, CSRF protection, secure sessions, and admin moderation queue.</li>
+        <li><strong>Security & Testing:</strong> 125+ automated integration tests, CSRF protection, and admin moderation queue.</li>
       </ul>
       <p>
         <a href="https://temari-hub.vercel.app"><b>🌐 Live Platform</b></a> • 
         <a href="https://github.com/petersisay/TemariHub"><b>💻 GitHub Repository</b></a>
       </p>
     </td>
+  </tr>
+
+  <!-- Row 2: Lehulu & Student Registration System -->
+  <tr>
     <td width="50%" valign="top">
       <h3>🛠️ Lehulu (ለሁሉ) — Ethiopian Services Marketplace</h3>
       <p><em>Production-grade digital marketplace connecting households and businesses with verified local service professionals across Adama, Bishoftu, and Addis Ababa.</em></p>
@@ -132,69 +149,31 @@ I am a senior **Software Engineering student** at **Adama Science and Technology
         <a href="https://github.com/petersisay/lehulu"><b>💻 GitHub Repository</b></a>
       </p>
     </td>
-  </tr>
-
-  <!-- Row 2: Revola & PetroFlow -->
-  <tr>
     <td width="50%" valign="top">
-      <h3>🏗️ Revola — Circular Materials Marketplace</h3>
-      <p><em>Managed circular marketplace engineered to streamline the recovery, trade, and logistics of reclaimed construction materials in Adama, Ethiopia.</em></p>
+      <h3>🏛️ Student Registration System — Java EE Enterprise App</h3>
+      <p><em>Robust academic management web application engineered with Java EE and the MVC architectural pattern to automate university registration and grading lifecycles.</em></p>
       <ul>
-        <li><strong>Full-Stack Architecture:</strong> React 19, TypeScript, Tailwind CSS v4, Express REST API, and MongoDB Atlas.</li>
-        <li><strong>Geospatial Depot Discovery:</strong> Leaflet & OpenStreetMap locator powered by MongoDB <code>2dsphere</code> index.</li>
-        <li><strong>Role-Based Access:</strong> Isolated Buyer, Seller, and Staff portals with JWT and Google OAuth 2.0.</li>
-        <li><strong>Ethiopian Payments:</strong> Chapa API (online ETB) + CBE bank receipt verification workflows.</li>
-        <li><strong>Mobile Companion:</strong> Native Flutter & Riverpod cross-platform app for field inspections.</li>
+        <li><strong>Architecture & Stack:</strong> Java, Java Servlets, JSP (JavaServer Pages), JSTL, MySQL, and Apache Tomcat.</li>
+        <li><strong>Academic Lifecycle:</strong> Student enrollment, course catalog management, credit limits, and section allocations.</li>
+        <li><strong>Role-Based Access:</strong> Isolated role portals for Academic Administrators, Faculty, and Students.</li>
+        <li><strong>Relational Persistence:</strong> Normalized MySQL schema with clean JDBC connection pooling and transactions.</li>
       </ul>
       <p>
-        <a href="https://adama-materials-e-commerce.vercel.app"><b>🌐 Live Web App</b></a> • 
-        <a href="https://github.com/petersisay/AdamaMaterials-E-commerce-"><b>💻 Web Repo</b></a> • 
-        <a href="https://github.com/petersisay/App-revola"><b>📱 Mobile Repo</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⚡ PetroFlow — Unified Productivity Suite</h3>
-      <p><em>Production-grade multi-platform task and focus management ecosystem uniting a reactive MERN web application with a Clean Architecture Flutter mobile client.</em></p>
-      <ul>
-        <li><strong>Multi-View Workspaces:</strong> Interactive Kanban board with stage counters, rich list view, Pomodoro timer, and analytics.</li>
-        <li><strong>Robust MERN Stack:</strong> React 19 frontend + Express backend with JWT auth, custom hashtags, and nested checklists.</li>
-        <li><strong>Clean Architecture Mobile:</strong> Native Flutter client with domain/data separation, Riverpod 2.6, and Material 3 OLED dark theme.</li>
-        <li><strong>Velocity Metrics:</strong> 7-day velocity bar charts, daily completion rings, and consecutive focus streak tracking.</li>
-        <li><strong>Data Resilience:</strong> JSON backup export/restore, keyboard shortcuts (<code>N</code>, <code>/</code>, <code>1-4</code>), and offline caching.</li>
-      </ul>
-      <p>
-        <a href="https://mern-todo-pro.vercel.app"><b>🌐 Live Web App</b></a> • 
-        <a href="https://github.com/petersisay/mern-todo-pro"><b>💻 Web Repo</b></a> • 
-        <a href="https://github.com/petersisay/flutter_todo_pro"><b>📱 Mobile Repo</b></a>
+        <a href="https://github.com/petersisay/StudentRegisterSystem"><b>💻 GitHub Repository</b></a>
       </p>
     </td>
   </tr>
 
-  <!-- Row 3: Guided Annual Planner & Portfolio v2 -->
+  <!-- Row 3: Petros Sisay Developer Portfolio (v2) -->
   <tr>
-    <td width="50%" valign="top">
-      <h3>📖 Guided Annual Planner & Sanctuary</h3>
-      <p><em>Paper-inspired annual planning Progressive Web App (PWA) inspired by physical Ethiopian journals, engineered to cultivate compounding focus and mindfulness.</em></p>
-      <ul>
-        <li><strong>TypeScript Monorepo:</strong> Clean full-stack architecture with React, TypeScript, Express, and MongoDB.</li>
-        <li><strong>197 Passing Tests:</strong> High-confidence codebase tested end-to-end with automated Vitest suites.</li>
-        <li><strong>Multi-Horizon Framework:</strong> Annual horizons, monthly intentions, 7-day execution spreads, and daily reflections.</li>
-        <li><strong>Production PWA:</strong> Offline service worker support deployed on Vercel with a containerized backend on Render.</li>
-      </ul>
-      <p>
-        <a href="https://guided-annual-planner.vercel.app"><b>🌐 Live Web App</b></a> • 
-        <a href="https://guided-annual-planner.onrender.com/health"><b>⚙️ API Health</b></a> • 
-        <a href="https://github.com/petersisay/guided-annual-planner"><b>💻 Monorepo</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
+    <td colspan="2" valign="top">
       <h3>💼 Petros Sisay Developer Portfolio (v2)</h3>
       <p><em>Production-quality personal developer portfolio engineered with a bespoke design system, dark-first aesthetics, and interactive navigation.</em></p>
       <ul>
         <li><strong>Design Tokens & Modules:</strong> React 19 and Vite 8 architecture using scoped CSS Modules with custom design tokens.</li>
         <li><strong>Command Palette:</strong> Integrated <code>Ctrl + K</code> / <code>Cmd + K</code> keyboard-driven navigation for instant section hopping.</li>
         <li><strong>Accessibility:</strong> Built to WCAG standards with semantic landmarks, visible <code>:focus-visible</code> states, and ARIA attributes.</li>
-        <li><strong>Dynamic Case Studies:</strong> Interactive project filtering, modal deep-dives, and client-side contact validation.</li>
+        <li><strong>Dynamic Showcase:</strong> Real-time project telemetry, verified internship credentials, and downloadable 1-page CV.</li>
       </ul>
       <p>
         <a href="https://petros-portfolio-one.vercel.app"><b>🌐 Live Website</b></a> • 
