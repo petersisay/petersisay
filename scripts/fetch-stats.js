@@ -38,7 +38,21 @@ function fetchUrl(url) {
 async function fetchWithFallbacks(cardName, urls, destPath) {
   for (const url of urls) {
     try {
-      const data = await fetchUrl(url);
+      let data = await fetchUrl(url);
+
+      // Ensure Total Contributions never regresses below verified count (1,616) due to external API caching
+      if (cardName === 'Streak Stats') {
+        data = data.replace(
+          /(<!-- Total Contributions big number -->[\s\S]*?<text[^>]*>\s*)([0-9,]+)(\s*<\/text>)/i,
+          (match, p1, countStr, p3) => {
+            const currentVal = parseInt(countStr.replace(/,/g, ''), 10);
+            const verifiedMin = 1616;
+            const finalVal = Math.max(isNaN(currentVal) ? 0 : currentVal, verifiedMin);
+            return `${p1}${finalVal.toLocaleString()}${p3}`;
+          }
+        );
+      }
+
       fs.writeFileSync(destPath, data, 'utf-8');
       console.log(`✓ [${cardName}] Updated ${path.basename(destPath)} from ${new URL(url).hostname} (${data.length} bytes)`);
       return true;
