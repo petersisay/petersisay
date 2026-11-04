@@ -46,7 +46,7 @@ async function fetchWithFallbacks(cardName, urls, destPath) {
           /(<!-- Total Contributions big number -->[\s\S]*?<text[^>]*>\s*)([0-9,]+)(\s*<\/text>)/i,
           (match, p1, countStr, p3) => {
             const currentVal = parseInt(countStr.replace(/,/g, ''), 10);
-            const verifiedMin = 1616;
+            const verifiedMin = 1710;
             const finalVal = Math.max(isNaN(currentVal) ? 0 : currentVal, verifiedMin);
             return `${p1}${finalVal.toLocaleString()}${p3}`;
           }
