@@ -98,7 +98,7 @@ I am a senior **Software Engineering student** at **Adama Science and Technology
 </div>
 
 ---
-
+<!--
 ## 🌟 Flagship Engineering Projects
 
 <table>
@@ -182,7 +182,7 @@ I am a senior **Software Engineering student** at **Adama Science and Technology
     </td>
   </tr>
 </table>
-
+-->
 ---
 
 ## 📊 GitHub Analytics & Activity
