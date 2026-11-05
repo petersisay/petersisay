@@ -102,7 +102,7 @@ I am a senior **Software Engineering student** at **Adama Science and Technology
 ## 🌟 Flagship Engineering Projects
 
 <table>
-  <!-- Row 1: CodeTogether & TemariHub -->
+ Row 1: CodeTogether & TemariHub
   <tr>
     <td width="50%" valign="top">
       <h3>💻 CodeTogether — Real-Time Collaborative Code Editor</h3>
@@ -133,7 +133,7 @@ I am a senior **Software Engineering student** at **Adama Science and Technology
     </td>
   </tr>
 
-  <!-- Row 2: Lehulu & Student Registration System -->
+   Row 2: Lehulu & Student Registration System
   <tr>
     <td width="50%" valign="top">
       <h3>🛠️ Lehulu (ለሁሉ) — Ethiopian Services Marketplace</h3>
@@ -164,7 +164,7 @@ I am a senior **Software Engineering student** at **Adama Science and Technology
     </td>
   </tr>
 
-  <!-- Row 3: Petros Sisay Developer Portfolio (v2) -->
+   Row 3: Petros Sisay Developer Portfolio (v2)
   <tr>
     <td colspan="2" valign="top">
       <h3>💼 Petros Sisay Developer Portfolio (v2)</h3>
