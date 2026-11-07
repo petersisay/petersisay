@@ -50,7 +50,7 @@ I am a senior **Software Engineering student** at **Adama Science and Technology
 
 ---
 
-## 🛠️ Core Technical Arsenal
+## 🛠️ Core Technicals
 
 <div align="center">
 
