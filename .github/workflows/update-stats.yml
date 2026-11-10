@@ -2,8 +2,8 @@ name: Auto-Sync GitHub Profile Stats
 
 on:
   schedule:
-    # Runs automatically every hour to keep profile stats and streak fresh
-    - cron: '0 * * * *'
+    # Runs automatically every 30 minutes to always keep profile streak, commits, and contributions up to date
+    - cron: '*/30 * * * *'
   workflow_dispatch: # Allows 1-click manual trigger anytime from GitHub Actions tab
   repository_dispatch: # Allows event-driven profile synchronization
     types: [activity_update, push_update, sync_profile]
