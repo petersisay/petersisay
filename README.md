@@ -2,7 +2,7 @@
 
 <!-- Animated Header Title with Typewriter SVG -->
 <a href="https://github.com/petersisay">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=21&pause=1200&color=38BDF8&center=true&vCenter=true&width=720&height=56&lines=Hi%2C+I'm+Petros+Sisay+%F0%9F%91%8B;Full-Stack+Engineer+%26+Mobile+Developer;Building+CodeTogether+%E2%80%A2+TemariHub+%E2%80%A2+Lehulu;React+19+%E2%80%A2+Flutter+%E2%80%A2+TypeScript+%E2%80%A2+Java;ASTU+Senior+Software+Engineering+Student" alt="Typing Banner" />
+  <img src="./assets/typing-banner.svg" alt="Typing Banner" />
 </a>
 
 <p align="center">
@@ -98,91 +98,6 @@ I am a senior **Software Engineering student** at **Adama Science and Technology
 </div>
 
 ---
-<!--
-## 🌟 Flagship Engineering Projects
-
-<table>
- Row 1: CodeTogether & TemariHub
-  <tr>
-    <td width="50%" valign="top">
-      <h3>💻 CodeTogether — Real-Time Collaborative Code Editor</h3>
-      <p><em>Full-featured collaborative workspace engineered for remote pair programming with live concurrent code editing and integrated WebRTC communication.</em></p>
-      <ul>
-        <li><strong>Architecture & Stack:</strong> React, Vite, Node.js, Express, Socket.IO, and WebRTC.</li>
-        <li><strong>Live Operational Sync:</strong> Sub-millisecond code broadcast, multi-cursor awareness, and shared execution state.</li>
-        <li><strong>Integrated Audio & Video:</strong> Peer-to-peer WebRTC voice and video calls built directly into the editor.</li>
-        <li><strong>Developer Ergonomics:</strong> Multi-file tab management, syntax highlighting, and one-click ZIP project export.</li>
-      </ul>
-      <p>
-        <a href="https://github.com/petersisay/CodeTogether"><b>💻 GitHub Repository</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🎓 TemariHub (ተማሪሀብ) — STEM Opportunity Platform</h3>
-      <p><em>Full-stack opportunity discovery and 7-stage application tracking platform crafted specifically for Ethiopian university students in STEM disciplines.</em></p>
-      <ul>
-        <li><strong>Architecture & Stack:</strong> React 19, TypeScript (Strict), Node.js, Express, and MongoDB Atlas.</li>
-        <li><strong>Student Career Tracker:</strong> 7-stage kanban-style pipeline, personal notes, deadline telemetry, and bookmarks.</li>
-        <li><strong>Bilingual Support:</strong> Dynamic English and Amharic UI with persistent locale management.</li>
-        <li><strong>Security & Testing:</strong> 125+ automated integration tests, CSRF protection, and admin moderation queue.</li>
-      </ul>
-      <p>
-        <a href="https://temari-hub.vercel.app"><b>🌐 Live Platform</b></a> • 
-        <a href="https://github.com/petersisay/TemariHub"><b>💻 GitHub Repository</b></a>
-      </p>
-    </td>
-  </tr>
-
-   Row 2: Lehulu & Student Registration System
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🛠️ Lehulu (ለሁሉ) — Ethiopian Services Marketplace</h3>
-      <p><em>Production-grade digital marketplace connecting households and businesses with verified local service professionals across Adama, Bishoftu, and Addis Ababa.</em></p>
-      <ul>
-        <li><strong>Architecture & Stack:</strong> TypeScript, React, Tailwind CSS, Express REST API, and MongoDB Atlas.</li>
-        <li><strong>Geospatial Service Boundaries:</strong> Location-based provider discovery and job matching across municipal zones.</li>
-        <li><strong>Three-Role Governance:</strong> Dedicated portals for Customers, Service Providers, and Verification Admins.</li>
-        <li><strong>Trust Architecture:</strong> Dispute management, verified credential reviews, and structured pricing estimates.</li>
-      </ul>
-      <p>
-        <a href="https://lehulu-two.vercel.app"><b>🌐 Live Platform</b></a> • 
-        <a href="https://github.com/petersisay/lehulu"><b>💻 GitHub Repository</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🏛️ Student Registration System — Java EE Enterprise App</h3>
-      <p><em>Robust academic management web application engineered with Java EE and the MVC architectural pattern to automate university registration and grading lifecycles.</em></p>
-      <ul>
-        <li><strong>Architecture & Stack:</strong> Java, Java Servlets, JSP (JavaServer Pages), JSTL, MySQL, and Apache Tomcat.</li>
-        <li><strong>Academic Lifecycle:</strong> Student enrollment, course catalog management, credit limits, and section allocations.</li>
-        <li><strong>Role-Based Access:</strong> Isolated role portals for Academic Administrators, Faculty, and Students.</li>
-        <li><strong>Relational Persistence:</strong> Normalized MySQL schema with clean JDBC connection pooling and transactions.</li>
-      </ul>
-      <p>
-        <a href="https://github.com/petersisay/StudentRegisterSystem"><b>💻 GitHub Repository</b></a>
-      </p>
-    </td>
-  </tr>
-
-   Row 3: Petros Sisay Developer Portfolio (v2)
-  <tr>
-    <td colspan="2" valign="top">
-      <h3>💼 Petros Sisay Developer Portfolio (v2)</h3>
-      <p><em>Production-quality personal developer portfolio engineered with a bespoke design system, dark-first aesthetics, and interactive navigation.</em></p>
-      <ul>
-        <li><strong>Design Tokens & Modules:</strong> React 19 and Vite 8 architecture using scoped CSS Modules with custom design tokens.</li>
-        <li><strong>Command Palette:</strong> Integrated <code>Ctrl + K</code> / <code>Cmd + K</code> keyboard-driven navigation for instant section hopping.</li>
-        <li><strong>Accessibility:</strong> Built to WCAG standards with semantic landmarks, visible <code>:focus-visible</code> states, and ARIA attributes.</li>
-        <li><strong>Dynamic Showcase:</strong> Real-time project telemetry, verified internship credentials, and downloadable 1-page CV.</li>
-      </ul>
-      <p>
-        <a href="https://petros-portfolio-one.vercel.app"><b>🌐 Live Website</b></a> • 
-        <a href="https://github.com/petersisay/petros-portfolio"><b>💻 Repository</b></a>
-      </p>
-    </td>
-  </tr>
-</table>
--->
 ---
 
 ## 📊 GitHub Analytics & Activity
@@ -236,7 +151,7 @@ Whether you have an opportunity, an open-source collaboration idea, or just want
 <br />
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,5,10,15,20&height=100&section=footer" width="100%" alt="Footer Wave" />
+  <img src="./assets/footer-wave.svg" width="100%" alt="Footer Wave" />
 </p>
 
 </div>

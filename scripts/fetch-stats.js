@@ -7,8 +7,29 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const assetsDir = path.resolve(__dirname, '../assets');
 
+// Safely load local .env if present without hardcoding or leaking
+const envPath = path.resolve(__dirname, '../.env');
+if (fs.existsSync(envPath)) {
+  try {
+    const envContent = fs.readFileSync(envPath, 'utf-8');
+    for (const line of envContent.split('\n')) {
+      const match = line.match(/^\s*([\w.-]+)\s*=\s*(.*)?\s*$/);
+      if (match && !process.env[match[1]]) {
+        process.env[match[1]] = match[2].trim().replace(/^['"]|['"]$/g, '');
+      }
+    }
+  } catch (_) {}
+}
+
 if (!fs.existsSync(assetsDir)) {
   fs.mkdirSync(assetsDir, { recursive: true });
+}
+
+function sanitizeLog(msg) {
+  if (typeof msg !== 'string') return '';
+  return msg
+    .replace(/(token|bearer|key|secret)[=:\s]+[A-Za-z0-9_\-\.]+/gi, '$1: [REDACTED]')
+    .replace(/gh[pousr]_[A-Za-z0-9_]+/g, '[REDACTED_GITHUB_TOKEN]');
 }
 
 function fetchUrl(url, options = {}) {
@@ -30,14 +51,15 @@ function fetchUrl(url, options = {}) {
         return fetchUrl(nextUrl, options).then(resolve).catch(reject);
       }
       if (res.statusCode !== 200) {
-        return reject(new Error(`HTTP ${res.statusCode} for ${url}`));
+        const safeTarget = parsedUrl.hostname + parsedUrl.pathname;
+        return reject(new Error(`HTTP ${res.statusCode} for ${safeTarget}`));
       }
       let data = '';
       res.on('data', (chunk) => (data += chunk));
       res.on('end', () => resolve(data));
     });
 
-    req.on('error', reject);
+    req.on('error', (err) => reject(new Error(sanitizeLog(err.message))));
     if (options.body) {
       req.write(options.body);
     }
@@ -91,7 +113,7 @@ async function fetchLiveGitHubStats(username) {
         return { totalContributions, currentStreak };
       }
     } catch (err) {
-      console.warn(`  ↳ [Live GitHub GraphQL] Query failed: ${err.message}`);
+      console.warn(`  ↳ [Live GitHub GraphQL] Query failed: ${sanitizeLog(err.message)}`);
     }
   }
 
@@ -359,7 +381,7 @@ async function fetchWithFallbacks(cardName, urls, destPath, liveStats) {
       console.log(`✓ [${cardName}] Updated ${path.basename(destPath)} from ${new URL(url).hostname} (${data.length} bytes)`);
       return true;
     } catch (err) {
-      console.warn(`  ↳ [${cardName}] Failed ${new URL(url).hostname}: ${err.message}`);
+      console.warn(`  ↳ [${cardName}] Failed ${new URL(url).hostname}: ${sanitizeLog(err.message)}`);
     }
   }
 

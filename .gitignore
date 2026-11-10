@@ -1,4 +1,60 @@
-petros-portfolio/
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+*.env
+*.secret
+*.token
+*.key
+*.pem
+*.cert
+*.pfx
+*.p12
+
+# Credentials & API keys
+credentials.json
+client_secret*.json
+*.credentials
+id_rsa
+id_ed25519
+
+# Dependencies & Package Managers
 node_modules/
+jspm_packages/
+.pnp
+.pnp.js
+
+# Build & Test Outputs
+dist/
+build/
+coverage/
+.nyc_output/
+
+# Logs & Debugging
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Temporary & Scratch Files
+*.tmp
+*.temp
+scripts/temp*
+scripts/test*
+scripts/check*
+scripts/inspect*
+
+# OS & Editor Metadata
 .DS_Store
 Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Sub-projects
+petros-portfolio/
