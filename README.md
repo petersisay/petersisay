@@ -42,14 +42,14 @@
 
 ## ⚡ About Me
 
-I am a senior **Software Engineering student** at **Adama Science and Technology University (ASTU)** in Ethiopia. I build robust digital platforms and mobile applications designed to solve real-world community, educational, and economic challenges.
+I am a senior **Software Engineering student** at **Adama Science and Technology University (ASTU)** in Ethiopia. I build robust digital platforms and mobile applications designed to solve real-world community, educational, and business challenges.
 
-- 🎓 **Academic Excellence:** Final-year student focusing on software architecture, distributed systems, relational & document databases, and algorithms.
-- 🌍 **Purpose-Driven Engineering:** Creating practical digital ecosystems like **CodeTogether** (real-time pair programming), **TemariHub** (STEM career enablement), and **Lehulu** (local services marketplace).
-- 💻 **Modern Full-Stack Web:** End-to-end web engineering with **React 19**, **TypeScript (Strict)**, **Tailwind CSS v4**, **Node.js**, and **Express.js**.
-- 📱 **Cross-Platform Mobile:** Native mobile applications built with **Flutter 3** and **Dart**, structured around Clean Architecture and Riverpod state management.
-- 💾 **Database & Enterprise Systems:** Relational schema design with **MySQL & JDBC** (Student Registration System) and document modeling with **MongoDB Atlas** (`2dsphere` geospatial indexing).
-- 🧪 **High Engineering Standards:** Passionate about test-driven confidence (125+ automated Vitest suites in production), CSRF protection, secure sessions, and clean Git workflows.
+- 🎓 **Academic Excellence:** Final-year student focusing on software architecture, distributed systems, relational databases, data structures, and algorithms.
+- 🌍 **Real-World Impact:** Engineering scalable applications like **Student Registration System** (Java EE enterprise portal), **AdamaMaterials** (TypeScript e-commerce), and responsive mobile apps with Flutter.
+- 💻 **Modern Full-Stack Web:** End-to-end web engineering with **TypeScript**, **JavaScript**, **React**, **Node.js**, and **Express.js**.
+- 📱 **Cross-Platform Mobile:** Native mobile applications built with **Flutter** and **Dart**, structured around Clean Architecture and reactive state management.
+- 💾 **Database & Enterprise Systems:** Relational schema design with **MySQL & JDBC** alongside document persistence and secure RESTful API integrations.
+- 🧪 **High Engineering Standards:** Passionate about test-driven confidence, security best practices, clean modular architecture, and structured Git workflows.
 
 ---
 
@@ -62,15 +62,14 @@ I am a senior **Software Engineering student** at **Adama Science and Technology
 [![JavaScript](https://img.shields.io/badge/JavaScript_ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
 [![Java](https://img.shields.io/badge/Java_SE-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://dev.java/)
-[![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)](#)
+[![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ### 🎨 Frontend & UI Frameworks
-[![React 19](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
-[![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Vite](https://img.shields.io/badge/Vite_Build-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![Leaflet Maps](https://img.shields.io/badge/Leaflet_Maps-199900?style=for-the-badge&logo=leaflet&logoColor=white)](https://leafletjs.com/)
 
 ### ⚙️ Backend, APIs & Architecture
 [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
@@ -85,16 +84,14 @@ I am a senior **Software Engineering student** at **Adama Science and Technology
 [![Material 3](https://img.shields.io/badge/Material_3_Design-7C4DFF?style=for-the-badge&logo=material-design&logoColor=white)](https://m3.material.io/)
 
 ### 🗄️ Databases & Persistence
-[![MongoDB Atlas](https://img.shields.io/badge/MongoDB_Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![Mongoose](https://img.shields.io/badge/Mongoose_ORM-880000?style=for-the-badge&logo=mongoose&logoColor=white)](https://mongoosejs.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 [![JDBC](https://img.shields.io/badge/JDBC_Driver-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](#)
 
 ### 🛠️ Developer Tools & Cloud Platforms
 [![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
-[![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://render.com/)
 [![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://www.postman.com/)
 [![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)](https://code.visualstudio.com/)
 
@@ -107,55 +104,55 @@ I am a senior **Software Engineering student** at **Adama Science and Technology
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>💻 CodeTogether — Real-Time Collaborative Code Editor</h3>
-      <p><em>Full-featured collaborative workspace engineered for remote pair programming with live concurrent code editing and integrated WebRTC communication.</em></p>
+      <h3>🏛️ Student Registration System — Java EE Enterprise App</h3>
+      <p><em>Academic management web platform engineered with Java EE and MVC architecture to streamline course registration, student enrollment, and grading.</em></p>
       <ul>
-        <li><strong>Architecture:</strong> React, Vite, Node.js, Express, Socket.IO, WebRTC</li>
-        <li><strong>Live Sync:</strong> Sub-millisecond code broadcast, multi-cursor awareness, and shared execution state</li>
-        <li><strong>Voice & Video:</strong> Integrated peer-to-peer WebRTC calls directly within the code editor</li>
+        <li><strong>Architecture:</strong> Java, Java Servlets, JSP, JSTL, MySQL, Apache Tomcat</li>
+        <li><strong>Lifecycle:</strong> Course catalog management, credit threshold validation, and student grade tracking</li>
+        <li><strong>Persistence:</strong> Normalized relational MySQL schema with JDBC connection pooling and transactions</li>
       </ul>
       <p>
-        <a href="https://github.com/petersisay/CodeTogether"><b>💻 GitHub Repository</b></a>
+        <a href="https://github.com/petersisay/StudentRegisterSystem"><b>💻 GitHub Repository</b></a>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🎓 TemariHub (ተማሪሀብ) — STEM Opportunity Platform</h3>
-      <p><em>Full-stack opportunity discovery and 7-stage application tracking platform crafted for Ethiopian university STEM students.</em></p>
+      <h3>🛒 AdamaMaterials — E-commerce Web Platform</h3>
+      <p><em>Modern e-commerce platform built with TypeScript, delivering responsive product discovery, cart state management, and full-stack ordering workflows.</em></p>
       <ul>
-        <li><strong>Architecture:</strong> React 19, TypeScript (Strict), Node.js, Express, MongoDB Atlas</li>
-        <li><strong>Application Pipeline:</strong> 7-stage kanban tracking, deadline telemetry, and dynamic Amharic & English UI</li>
-        <li><strong>Quality:</strong> 125+ automated integration tests, CSRF protection, and admin moderation</li>
+        <li><strong>Architecture:</strong> TypeScript, React, Node.js, Express, Tailwind CSS</li>
+        <li><strong>Catalog & Cart:</strong> Dynamic product categorization, inventory display, and structured state persistence</li>
+        <li><strong>Design:</strong> Responsive, high-performance UI styled with Tailwind CSS for mobile and desktop</li>
       </ul>
       <p>
-        <a href="https://temari-hub.vercel.app" target="_blank"><b>🌐 Live Platform</b></a> • 
-        <a href="https://github.com/petersisay/TemariHub"><b>💻 GitHub Repository</b></a>
+        <a href="https://github.com/petersisay/AdamaMaterials-E-commerce-"><b>💻 GitHub Repository</b></a>
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🛠️ Lehulu (ለሁሉ) — Ethiopian Services Marketplace</h3>
-      <p><em>Production-grade marketplace connecting households and businesses with verified service professionals across Adama, Bishoftu, and Addis Ababa.</em></p>
+      <h3>🌐 Petros Portfolio — Interactive Engineering Portfolio</h3>
+      <p><em>Personal engineering website showcasing production projects, technical capabilities, interactive demos, and direct professional contact channels.</em></p>
       <ul>
-        <li><strong>Architecture:</strong> TypeScript, React, Tailwind CSS, Express REST API, MongoDB Atlas</li>
-        <li><strong>Geospatial Boundaries:</strong> Location-based provider discovery with MongoDB <code>2dsphere</code> indexing</li>
-        <li><strong>Governance:</strong> Dedicated portals for Customers, Service Providers, and Verification Admins</li>
+        <li><strong>Architecture:</strong> React, JavaScript, Modern CSS3, Vercel Edge Deployment</li>
+        <li><strong>Experience:</strong> Fluid layout, responsive typography, and cross-device performance optimization</li>
+        <li><strong>Integration:</strong> Seamless links to source repositories, live platforms, and direct communications</li>
       </ul>
       <p>
-        <a href="https://lehulu-two.vercel.app" target="_blank"><b>🌐 Live Platform</b></a> • 
-        <a href="https://github.com/petersisay/lehulu"><b>💻 GitHub Repository</b></a>
+        <a href="https://petros-portfolio-one.vercel.app" target="_blank"><b>🌐 Live Platform</b></a> • 
+        <a href="https://github.com/petersisay/petros-portfolio"><b>💻 GitHub Repository</b></a>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🏛️ Student Registration System — Java EE Enterprise App</h3>
-      <p><em>Academic management web platform engineered with Java EE and MVC architecture to automate student enrollment and grading.</em></p>
+      <h3>📱 Mobile Engineering — Revola & Flutter Todo Pro</h3>
+      <p><em>Cross-platform mobile applications engineered in Flutter and Dart, built with Clean Architecture principles and reactive state handling.</em></p>
       <ul>
-        <li><strong>Architecture:</strong> Java, Java Servlets, JSP, JSTL, MySQL, Apache Tomcat</li>
-        <li><strong>Lifecycle:</strong> Course catalog, credit threshold limits, section allocations, and grading</li>
-        <li><strong>Persistence:</strong> Normalized MySQL schema with JDBC connection pooling and transactions</li>
+        <li><strong>Architecture:</strong> Flutter 3, Dart, Clean Architecture, Provider / Riverpod</li>
+        <li><strong>Features:</strong> Real-time task workflows, persistent local state, and smooth 60fps animations</li>
+        <li><strong>UI/UX:</strong> Adaptive Material 3 design crafted for modern Android and iOS experiences</li>
       </ul>
       <p>
-        <a href="https://github.com/petersisay/StudentRegisterSystem"><b>💻 GitHub Repository</b></a>
+        <a href="https://github.com/petersisay/App-revola"><b>💻 App-revola Repo</b></a> • 
+        <a href="https://github.com/petersisay/flutter_todo_pro"><b>💻 Flutter Todo Repo</b></a>
       </p>
     </td>
   </tr>
@@ -188,35 +185,12 @@ I am a senior **Software Engineering student** at **Adama Science and Technology
 
 ---
 
-## 👁️ Profile Watchers & Community Traffic
-
-<div align="center">
-
-<p align="center">
-  <strong>Thanks for checking out my GitHub profile! Every view, star, and fork supports my open-source journey.</strong>
-</p>
-
-<!-- Live Profile Traffic Counter and Community Telemetry -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=petersisay&label=Total%20Profile%20Views&color=38BDF8&style=for-the-badge&logo=eye&logoColor=white" alt="Live Profile Views" />
-  <a href="https://github.com/petersisay?tab=followers" target="_blank">
-    <img src="https://img.shields.io/github/followers/petersisay?label=Network%20Followers&style=for-the-badge&logo=github&color=6366F1&logoColor=white" alt="Followers" />
-  </a>
-  <a href="https://github.com/petersisay?tab=repositories" target="_blank">
-    <img src="https://img.shields.io/badge/Open_Source-Contributions_%E2%80%A2_Projects-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Open Source" />
-  </a>
-</p>
-
-</div>
-
----
-
 ## 🎯 Engineering Mindset & Goals
 
 - 💡 **Philosophy:** *"Doing small things before taking major steps compounds over time to create a huge impact."*
-- 🔭 **Current Focus:** Scaling Ethiopian civic & commercial platforms (**TemariHub** and **Lehulu**), refining distributed backend architectures, and reactive cross-platform mobile patterns.
+- 🔭 **Current Focus:** Advancing enterprise applications (**Student Registration System** & **AdamaMaterials**), mastering distributed backend systems, and crafting responsive mobile applications with Flutter & Dart.
 - 🎯 **Career Target:** Seeking **Software Engineering Internships** and **Junior Full-Stack Developer** roles where I can build impactful products and collaborate with world-class engineering teams.
-- 💬 **Let's Talk About:** React 19 architecture, TypeScript type modeling, Node.js API optimization, Flutter Riverpod patterns, and database design.
+- 💬 **Let's Talk About:** TypeScript architecture, Node.js API optimization, Flutter patterns, relational schema design, and modern web frameworks.
 
 ---
 
