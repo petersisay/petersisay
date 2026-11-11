@@ -10,11 +10,14 @@
   <em>Engineering dependable, production-grade full-stack web platforms, REST APIs, and native mobile applications.</em>
 </p>
 
-<!-- Quick Profile Status Badges -->
+<!-- Live Telemetry, Visitor Counter & Profile Status Badges -->
 <p align="center">
+  <img src="https://komarev.com/ghpvc/?username=petersisay&label=Profile%20Views&color=38BDF8&style=for-the-badge&logo=eye&logoColor=white" alt="Profile Views Counter" />
+  <a href="https://github.com/petersisay?tab=followers" target="_blank">
+    <img src="https://img.shields.io/github/followers/petersisay?label=Followers&style=for-the-badge&logo=github&color=6366F1&logoColor=white" alt="GitHub Followers" />
+  </a>
   <img src="https://img.shields.io/badge/Status-Open_to_Opportunities-10B981?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" />
   <img src="https://img.shields.io/badge/Location-Adama%2C_Ethiopia-38BDF8?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
-  <img src="https://img.shields.io/badge/Focus-Full--Stack_%26_Mobile_Systems-6366F1?style=for-the-badge&logo=codeforces&logoColor=white" alt="Focus" />
 </p>
 
 <!-- Quick Social Links Bar -->
@@ -50,7 +53,7 @@ I am a senior **Software Engineering student** at **Adama Science and Technology
 
 ---
 
-## 🛠️ Core Technicals
+## 🛠️ Core Technical Arsenal
 
 <div align="center">
 
@@ -98,6 +101,66 @@ I am a senior **Software Engineering student** at **Adama Science and Technology
 </div>
 
 ---
+
+## 🌟 Flagship Engineering Projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>💻 CodeTogether — Real-Time Collaborative Code Editor</h3>
+      <p><em>Full-featured collaborative workspace engineered for remote pair programming with live concurrent code editing and integrated WebRTC communication.</em></p>
+      <ul>
+        <li><strong>Architecture:</strong> React, Vite, Node.js, Express, Socket.IO, WebRTC</li>
+        <li><strong>Live Sync:</strong> Sub-millisecond code broadcast, multi-cursor awareness, and shared execution state</li>
+        <li><strong>Voice & Video:</strong> Integrated peer-to-peer WebRTC calls directly within the code editor</li>
+      </ul>
+      <p>
+        <a href="https://github.com/petersisay/CodeTogether"><b>💻 GitHub Repository</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎓 TemariHub (ተማሪሀብ) — STEM Opportunity Platform</h3>
+      <p><em>Full-stack opportunity discovery and 7-stage application tracking platform crafted for Ethiopian university STEM students.</em></p>
+      <ul>
+        <li><strong>Architecture:</strong> React 19, TypeScript (Strict), Node.js, Express, MongoDB Atlas</li>
+        <li><strong>Application Pipeline:</strong> 7-stage kanban tracking, deadline telemetry, and dynamic Amharic & English UI</li>
+        <li><strong>Quality:</strong> 125+ automated integration tests, CSRF protection, and admin moderation</li>
+      </ul>
+      <p>
+        <a href="https://temari-hub.vercel.app" target="_blank"><b>🌐 Live Platform</b></a> • 
+        <a href="https://github.com/petersisay/TemariHub"><b>💻 GitHub Repository</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛠️ Lehulu (ለሁሉ) — Ethiopian Services Marketplace</h3>
+      <p><em>Production-grade marketplace connecting households and businesses with verified service professionals across Adama, Bishoftu, and Addis Ababa.</em></p>
+      <ul>
+        <li><strong>Architecture:</strong> TypeScript, React, Tailwind CSS, Express REST API, MongoDB Atlas</li>
+        <li><strong>Geospatial Boundaries:</strong> Location-based provider discovery with MongoDB <code>2dsphere</code> indexing</li>
+        <li><strong>Governance:</strong> Dedicated portals for Customers, Service Providers, and Verification Admins</li>
+      </ul>
+      <p>
+        <a href="https://lehulu-two.vercel.app" target="_blank"><b>🌐 Live Platform</b></a> • 
+        <a href="https://github.com/petersisay/lehulu"><b>💻 GitHub Repository</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏛️ Student Registration System — Java EE Enterprise App</h3>
+      <p><em>Academic management web platform engineered with Java EE and MVC architecture to automate student enrollment and grading.</em></p>
+      <ul>
+        <li><strong>Architecture:</strong> Java, Java Servlets, JSP, JSTL, MySQL, Apache Tomcat</li>
+        <li><strong>Lifecycle:</strong> Course catalog, credit threshold limits, section allocations, and grading</li>
+        <li><strong>Persistence:</strong> Normalized MySQL schema with JDBC connection pooling and transactions</li>
+      </ul>
+      <p>
+        <a href="https://github.com/petersisay/StudentRegisterSystem"><b>💻 GitHub Repository</b></a>
+      </p>
+    </td>
+  </tr>
+</table>
+
 ---
 
 ## 📊 GitHub Analytics & Activity
@@ -125,6 +188,29 @@ I am a senior **Software Engineering student** at **Adama Science and Technology
 
 ---
 
+## 👁️ Profile Watchers & Community Traffic
+
+<div align="center">
+
+<p align="center">
+  <strong>Thanks for checking out my GitHub profile! Every view, star, and fork supports my open-source journey.</strong>
+</p>
+
+<!-- Live Profile Traffic Counter and Community Telemetry -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=petersisay&label=Total%20Profile%20Views&color=38BDF8&style=for-the-badge&logo=eye&logoColor=white" alt="Live Profile Views" />
+  <a href="https://github.com/petersisay?tab=followers" target="_blank">
+    <img src="https://img.shields.io/github/followers/petersisay?label=Network%20Followers&style=for-the-badge&logo=github&color=6366F1&logoColor=white" alt="Followers" />
+  </a>
+  <a href="https://github.com/petersisay?tab=repositories" target="_blank">
+    <img src="https://img.shields.io/badge/Open_Source-Contributions_%E2%80%A2_Projects-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Open Source" />
+  </a>
+</p>
+
+</div>
+
+---
+
 ## 🎯 Engineering Mindset & Goals
 
 - 💡 **Philosophy:** *"Doing small things before taking major steps compounds over time to create a huge impact."*
@@ -143,7 +229,7 @@ Whether you have an opportunity, an open-source collaboration idea, or just want
 | Platform | Details | Quick Action |
 |:---|:---|:---:|
 | 🌐 **Personal Website** | `petros-portfolio-one.vercel.app` | [**Explore Portfolio**](https://petros-portfolio-one.vercel.app) |
-| 💼 **LinkedIn** | `Petros Sisay` | [**Connect on LinkedIn**](https://www.linkedin.com/in/petros-sisay) |
+| 💼 **LinkedIn** | `Petros Sisay` | [**Connect on LinkedIn**](https://www.linkedin.com/in/petros-sisay-gelan/) |
 | 📧 **Direct Email** | `petrossisay1646@gmail.com` | [**Send Email**](mailto:petrossisay1646@gmail.com) |
 | 💬 **Telegram** | `@Petros_sisay` | [**Direct Message**](https://t.me/Petros_sisay) |
 | 🐙 **GitHub** | `@petersisay` | [**Follow Profile**](https://github.com/petersisay) |
