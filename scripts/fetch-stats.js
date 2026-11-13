@@ -76,7 +76,7 @@ function fetchUrl(url, options = {}) {
 
 function calculateDynamicStreak(days) {
   if (!days || days.length === 0) {
-    return { currentStreak: 30, longestStreak: 30, streakRange: 'Oct 14 - Nov 12' };
+    return { currentStreak: 31, longestStreak: 31, streakRange: 'Oct 14 - Nov 13' };
   }
 
   // Account for local timezone (UTC+3) active contribution day
@@ -123,10 +123,10 @@ function calculateDynamicStreak(days) {
 }
 
 async function fetchLiveGitHubStats(username) {
-  let totalContributions = 2697;
-  let currentStreak = 30;
-  let longestStreak = 30;
-  let streakRange = 'Oct 14 - Nov 12';
+  let totalContributions = 3012;
+  let currentStreak = 31;
+  let longestStreak = 31;
+  let streakRange = 'Oct 14 - Nov 13';
 
   // 1. Try GitHub GraphQL API if GITHUB_TOKEN is available
   if (process.env.GITHUB_TOKEN) {
@@ -210,7 +210,7 @@ async function fetchLiveGitHubStats(username) {
 }
 
 function sanitizeGitHubStats(data, liveStats) {
-  const total = Math.max(liveStats.totalContributions || 2697, 2697);
+  const total = Math.max(liveStats.totalContributions || 3012, 3012);
   const commitsFormatted = total >= 1000 ? `${(total / 1000).toFixed(1)}k` : `${total}`;
 
   // 1. Correct Total Commits dynamically
@@ -365,11 +365,11 @@ function generateCleanTopLangs() {
 }
 
 function sanitizeStreakStats(data, liveStats) {
-  const floor = 2697;
+  const floor = 3012;
   const targetTotal = Math.max(liveStats.totalContributions || floor, floor);
-  const targetStreak = Math.max(liveStats.currentStreak || 30, 30);
-  const longestStreak = Math.max(liveStats.longestStreak || 30, targetStreak);
-  const streakRange = liveStats.streakRange || 'Oct 14 - Nov 12';
+  const targetStreak = Math.max(liveStats.currentStreak || 31, 31);
+  const longestStreak = Math.max(liveStats.longestStreak || 31, targetStreak);
+  const streakRange = liveStats.streakRange || 'Oct 14 - Nov 13';
 
   // Total Contributions number
   data = data.replace(

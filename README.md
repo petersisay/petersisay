@@ -45,11 +45,11 @@
 I am a senior **Software Engineering student** at **Adama Science and Technology University (ASTU)** in Ethiopia. I build robust digital platforms and mobile applications designed to solve real-world community, educational, and business challenges.
 
 - 🎓 **Academic Excellence:** Final-year student focusing on software architecture, distributed systems, relational databases, data structures, and algorithms.
-- 🌍 **Real-World Impact:** Engineering scalable applications like **Student Registration System** (Java EE enterprise portal), **AdamaMaterials** (TypeScript e-commerce), and responsive mobile apps with Flutter.
-- 💻 **Modern Full-Stack Web:** End-to-end web engineering with **TypeScript**, **JavaScript**, **React**, **Node.js**, and **Express.js**.
-- 📱 **Cross-Platform Mobile:** Native mobile applications built with **Flutter** and **Dart**, structured around Clean Architecture and reactive state management.
-- 💾 **Database & Enterprise Systems:** Relational schema design with **MySQL & JDBC** alongside document persistence and secure RESTful API integrations.
-- 🧪 **High Engineering Standards:** Passionate about test-driven confidence, security best practices, clean modular architecture, and structured Git workflows.
+- 🌍 **Purpose-Driven Engineering:** Creating practical digital ecosystems like **CodeTogether** (real-time pair programming), **TemariHub** (STEM career enablement), **Lehulu** (local services marketplace), and **Student Registration System** (Java EE enterprise portal).
+- 💻 **Modern Full-Stack Web:** End-to-end web engineering with **React 19**, **TypeScript (Strict)**, **Tailwind CSS**, **Node.js**, and **Express.js**.
+- 📱 **Cross-Platform Mobile:** Native mobile applications built with **Flutter 3** and **Dart**, structured around Clean Architecture and reactive state management.
+- 💾 **Database & Enterprise Systems:** Relational schema design with **MySQL & JDBC** alongside document persistence (**MongoDB Atlas**) and secure RESTful API integrations.
+- 🧪 **High Engineering Standards:** Passionate about test-driven confidence, security best practices (JWT auth, CSRF protection), clean modular architecture, and structured Git workflows.
 
 ---
 
@@ -104,6 +104,46 @@ I am a senior **Software Engineering student** at **Adama Science and Technology
 <table>
   <tr>
     <td width="50%" valign="top">
+      <h3>💻 CodeTogether — Real-Time Collaborative Code Editor</h3>
+      <p><em>Full-featured collaborative workspace engineered for remote pair programming with live concurrent code editing and integrated WebRTC communication.</em></p>
+      <ul>
+        <li><strong>Architecture:</strong> JavaScript, React, Node.js, Express, Socket.IO, WebRTC</li>
+        <li><strong>Live Sync:</strong> Sub-millisecond code broadcast, multi-cursor awareness, and shared execution state</li>
+        <li><strong>Voice & Video:</strong> Integrated peer-to-peer WebRTC calls directly within the code editor</li>
+      </ul>
+      <p>
+        <a href="https://github.com/petersisay/CodeTogether"><b>💻 GitHub Repository</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎓 TemariHub — STEM Opportunity Platform</h3>
+      <p><em>Full-stack opportunity discovery and application tracking platform crafted for Ethiopian university STEM students.</em></p>
+      <ul>
+        <li><strong>Architecture:</strong> TypeScript, React 19, Node.js, Express, MongoDB Atlas</li>
+        <li><strong>Application Pipeline:</strong> Multi-stage kanban tracking, deadline telemetry, and dynamic Amharic & English UI</li>
+        <li><strong>Quality:</strong> Automated integration testing, CSRF protection, and admin moderation</li>
+      </ul>
+      <p>
+        <a href="https://temari-hub.vercel.app" target="_blank"><b>🌐 Live Platform</b></a> • 
+        <a href="https://github.com/petersisay/TemariHub"><b>💻 GitHub Repository</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛠️ Lehulu — Ethiopian Services Marketplace</h3>
+      <p><em>Production-grade marketplace connecting households and businesses with verified service professionals across Adama, Bishoftu, and Addis Ababa.</em></p>
+      <ul>
+        <li><strong>Architecture:</strong> TypeScript, React, Tailwind CSS, Express REST API, MongoDB Atlas</li>
+        <li><strong>Geospatial Boundaries:</strong> Location-based provider discovery with MongoDB <code>2dsphere</code> indexing</li>
+        <li><strong>Governance:</strong> Dedicated portals for Customers, Service Providers, and Verification Admins</li>
+      </ul>
+      <p>
+        <a href="https://lehulu-two.vercel.app" target="_blank"><b>🌐 Live Platform</b></a> • 
+        <a href="https://github.com/petersisay/lehulu"><b>💻 GitHub Repository</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
       <h3>🏛️ Student Registration System — Java EE Enterprise App</h3>
       <p><em>Academic management web platform engineered with Java EE and MVC architecture to streamline course registration, student enrollment, and grading.</em></p>
       <ul>
@@ -115,6 +155,8 @@ I am a senior **Software Engineering student** at **Adama Science and Technology
         <a href="https://github.com/petersisay/StudentRegisterSystem"><b>💻 GitHub Repository</b></a>
       </p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3>🛒 AdamaMaterials — E-commerce Web Platform</h3>
       <p><em>Modern e-commerce platform built with TypeScript, delivering responsive product discovery, cart state management, and full-stack ordering workflows.</em></p>
@@ -125,21 +167,6 @@ I am a senior **Software Engineering student** at **Adama Science and Technology
       </ul>
       <p>
         <a href="https://github.com/petersisay/AdamaMaterials-E-commerce-"><b>💻 GitHub Repository</b></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🌐 Petros Portfolio — Interactive Engineering Portfolio</h3>
-      <p><em>Personal engineering website showcasing production projects, technical capabilities, interactive demos, and direct professional contact channels.</em></p>
-      <ul>
-        <li><strong>Architecture:</strong> React, JavaScript, Modern CSS3, Vercel Edge Deployment</li>
-        <li><strong>Experience:</strong> Fluid layout, responsive typography, and cross-device performance optimization</li>
-        <li><strong>Integration:</strong> Seamless links to source repositories, live platforms, and direct communications</li>
-      </ul>
-      <p>
-        <a href="https://petros-portfolio-one.vercel.app" target="_blank"><b>🌐 Live Platform</b></a> • 
-        <a href="https://github.com/petersisay/petros-portfolio"><b>💻 GitHub Repository</b></a>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -188,7 +215,7 @@ I am a senior **Software Engineering student** at **Adama Science and Technology
 ## 🎯 Engineering Mindset & Goals
 
 - 💡 **Philosophy:** *"Doing small things before taking major steps compounds over time to create a huge impact."*
-- 🔭 **Current Focus:** Advancing enterprise applications (**Student Registration System** & **AdamaMaterials**), mastering distributed backend systems, and crafting responsive mobile applications with Flutter & Dart.
+- 🔭 **Current Focus:** Scaling Ethiopian civic & commercial platforms (**TemariHub** and **Lehulu**), refining distributed backend architectures, and reactive cross-platform mobile patterns.
 - 🎯 **Career Target:** Seeking **Software Engineering Internships** and **Junior Full-Stack Developer** roles where I can build impactful products and collaborate with world-class engineering teams.
 - 💬 **Let's Talk About:** TypeScript architecture, Node.js API optimization, Flutter patterns, relational schema design, and modern web frameworks.
 
