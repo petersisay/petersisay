@@ -76,7 +76,7 @@ function fetchUrl(url, options = {}) {
 
 function calculateDynamicStreak(days) {
   if (!days || days.length === 0) {
-    return { currentStreak: 31, longestStreak: 31, streakRange: 'Oct 14 - Nov 13' };
+    return { currentStreak: 32, longestStreak: 32, streakRange: 'Oct 14 - Nov 14' };
   }
 
   // Account for local timezone (UTC+3) active contribution day
@@ -123,10 +123,10 @@ function calculateDynamicStreak(days) {
 }
 
 async function fetchLiveGitHubStats(username) {
-  let totalContributions = 3012;
-  let currentStreak = 31;
-  let longestStreak = 31;
-  let streakRange = 'Oct 14 - Nov 13';
+  let totalContributions = 3016;
+  let currentStreak = 32;
+  let longestStreak = 32;
+  let streakRange = 'Oct 14 - Nov 14';
 
   // 1. Try GitHub GraphQL API if GITHUB_TOKEN is available
   if (process.env.GITHUB_TOKEN) {
@@ -210,7 +210,7 @@ async function fetchLiveGitHubStats(username) {
 }
 
 function sanitizeGitHubStats(data, liveStats) {
-  const total = Math.max(liveStats.totalContributions || 3012, 3012);
+  const total = Math.max(liveStats.totalContributions || 3016, 3016);
   const commitsFormatted = total >= 1000 ? `${(total / 1000).toFixed(1)}k` : `${total}`;
 
   // 1. Correct Total Commits dynamically
@@ -261,7 +261,7 @@ function generateCleanTopLangs() {
         aria-labelledby="descId"
       >
         <title id="titleId">Most Used Languages</title>
-        <desc id="descId">TypeScript 49.70%, JavaScript 28.43%, Dart 11.88%, Java 9.89%</desc>
+        <desc id="descId">TypeScript 42.74%, JavaScript 37.55%, Dart 10.10%, Java 9.61%</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -324,23 +324,23 @@ function generateCleanTopLangs() {
               <rect x="0" y="0" width="250" height="8" fill="white" rx="5"/>
             </mask>
             
-            <rect mask="url(#rect-mask)" data-testid="lang-progress" x="0" y="0" width="124.25" height="8" fill="#3178c6"/>
-            <rect mask="url(#rect-mask)" data-testid="lang-progress" x="124.25" y="0" width="71.09" height="8" fill="#f1e05a"/>
-            <rect mask="url(#rect-mask)" data-testid="lang-progress" x="195.34" y="0" width="29.71" height="8" fill="#00B4AB"/>
-            <rect mask="url(#rect-mask)" data-testid="lang-progress" x="225.05" y="0" width="24.95" height="8" fill="#b07219"/>
+            <rect mask="url(#rect-mask)" data-testid="lang-progress" x="0" y="0" width="106.85" height="8" fill="#3178c6"/>
+            <rect mask="url(#rect-mask)" data-testid="lang-progress" x="106.85" y="0" width="93.88" height="8" fill="#f1e05a"/>
+            <rect mask="url(#rect-mask)" data-testid="lang-progress" x="200.73" y="0" width="25.25" height="8" fill="#00B4AB"/>
+            <rect mask="url(#rect-mask)" data-testid="lang-progress" x="225.98" y="0" width="24.02" height="8" fill="#b07219"/>
 
             <g transform="translate(0, 25)">
               <g transform="translate(0, 0)">
                 <g transform="translate(0, 0)">
                   <g class="stagger" style="animation-delay: 450ms">
                     <circle cx="5" cy="6" r="5" fill="#3178c6" />
-                    <text data-testid="lang-name" x="15" y="10" class="lang-name">TypeScript 49.70%</text>
+                    <text data-testid="lang-name" x="15" y="10" class="lang-name">TypeScript 42.74%</text>
                   </g>
                 </g>
                 <g transform="translate(0, 25)">
                   <g class="stagger" style="animation-delay: 600ms">
                     <circle cx="5" cy="6" r="5" fill="#f1e05a" />
-                    <text data-testid="lang-name" x="15" y="10" class="lang-name">JavaScript 28.43%</text>
+                    <text data-testid="lang-name" x="15" y="10" class="lang-name">JavaScript 37.55%</text>
                   </g>
                 </g>
               </g>
@@ -348,13 +348,13 @@ function generateCleanTopLangs() {
                 <g transform="translate(0, 0)">
                   <g class="stagger" style="animation-delay: 750ms">
                     <circle cx="5" cy="6" r="5" fill="#00B4AB" />
-                    <text data-testid="lang-name" x="15" y="10" class="lang-name">Dart 11.88%</text>
+                    <text data-testid="lang-name" x="15" y="10" class="lang-name">Dart 10.10%</text>
                   </g>
                 </g>
                 <g transform="translate(0, 25)">
                   <g class="stagger" style="animation-delay: 900ms">
                     <circle cx="5" cy="6" r="5" fill="#b07219" />
-                    <text data-testid="lang-name" x="15" y="10" class="lang-name">Java 9.89%</text>
+                    <text data-testid="lang-name" x="15" y="10" class="lang-name">Java 9.61%</text>
                   </g>
                 </g>
               </g>
@@ -365,11 +365,11 @@ function generateCleanTopLangs() {
 }
 
 function sanitizeStreakStats(data, liveStats) {
-  const floor = 3012;
+  const floor = 3016;
   const targetTotal = Math.max(liveStats.totalContributions || floor, floor);
-  const targetStreak = Math.max(liveStats.currentStreak || 31, 31);
-  const longestStreak = Math.max(liveStats.longestStreak || 31, targetStreak);
-  const streakRange = liveStats.streakRange || 'Oct 14 - Nov 13';
+  const targetStreak = Math.max(liveStats.currentStreak || 32, 32);
+  const longestStreak = Math.max(liveStats.longestStreak || 32, targetStreak);
+  const streakRange = liveStats.streakRange || 'Oct 14 - Nov 14';
 
   // Total Contributions number
   data = data.replace(
