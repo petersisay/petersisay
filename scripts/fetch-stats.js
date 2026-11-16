@@ -123,6 +123,7 @@ function calculateDynamicStreak(days) {
 }
 
 async function fetchLiveGitHubStats(username) {
+  let liveCalendarContributions = 2783;
   let totalContributions = 3088;
   let currentStreak = 34;
   let longestStreak = 34;
@@ -162,6 +163,7 @@ async function fetchLiveGitHubStats(username) {
       const json = JSON.parse(response);
       const calendar = json?.data?.user?.contributionsCollection?.contributionCalendar;
       if (calendar) {
+        liveCalendarContributions = calendar.totalContributions;
         totalContributions = Math.max(calendar.totalContributions, totalContributions);
         const days = calendar.weeks
           .flatMap((w) => w.contributionDays)
@@ -172,8 +174,8 @@ async function fetchLiveGitHubStats(username) {
         longestStreak = streakInfo.longestStreak;
         streakRange = streakInfo.streakRange;
 
-        console.log(`✓ [Live GitHub GraphQL] Contributions: ${totalContributions}, Streak: ${currentStreak} (${streakRange})`);
-        return { totalContributions, currentStreak, longestStreak, streakRange };
+        console.log(`✓ [Live GitHub GraphQL] Contributions: ${liveCalendarContributions}, Streak: ${currentStreak} (${streakRange})`);
+        return { liveCalendarContributions, totalContributions, currentStreak, longestStreak, streakRange };
       }
     } catch (err) {
       console.warn(`  ↳ [Live GitHub GraphQL] Query failed: ${sanitizeLog(err.message)}`);
@@ -186,6 +188,7 @@ async function fetchLiveGitHubStats(username) {
     const totalMatch = html.match(/([0-9,]+)\s+contributions\s+in\s+the\s+last\s+year/i) || html.match(/([0-9,]+)\s+contributions/i);
     if (totalMatch) {
       const parsed = parseInt(totalMatch[1].replace(/,/g, ''), 10);
+      liveCalendarContributions = parsed;
       totalContributions = Math.max(parsed, totalContributions);
     }
 
@@ -201,19 +204,19 @@ async function fetchLiveGitHubStats(username) {
     longestStreak = streakInfo.longestStreak;
     streakRange = streakInfo.streakRange;
 
-    console.log(`✓ [Live GitHub Scrape] Contributions: ${totalContributions}, Streak: ${currentStreak} (${streakRange})`);
+    console.log(`✓ [Live GitHub Scrape] Live Calendar: ${liveCalendarContributions}, Streak: ${currentStreak} (${streakRange})`);
   } catch (err) {
     console.warn(`  ↳ [Live GitHub Scrape] Fallback failed: ${err.message}`);
   }
 
-  return { totalContributions, currentStreak, longestStreak, streakRange };
+  return { liveCalendarContributions, totalContributions, currentStreak, longestStreak, streakRange };
 }
 
 function sanitizeGitHubStats(data, liveStats) {
-  const total = Math.max(liveStats.totalContributions || 3088, 3088);
+  const total = liveStats.liveCalendarContributions || 2783;
   const commitsFormatted = total >= 1000 ? `${(total / 1000).toFixed(1)}k` : `${total}`;
 
-  // 1. Correct Total Commits dynamically
+  // 1. Correct Total Commits dynamically to match live calendar count
   data = data.replace(
     /(<text[^>]*data-testid="commits"[^>]*>)([\s\S]*?)(<\/text>)/i,
     `$1${commitsFormatted}$3`
