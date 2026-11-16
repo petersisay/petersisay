@@ -123,8 +123,8 @@ function calculateDynamicStreak(days) {
 }
 
 async function fetchLiveGitHubStats(username) {
-  let liveCalendarContributions = 2783;
-  let totalContributions = 3088;
+  let liveCalendarContributions = 2785;
+  let totalContributions = 2785;
   let currentStreak = 34;
   let longestStreak = 34;
   let streakRange = 'Oct 14 - Nov 16';
@@ -368,8 +368,7 @@ function generateCleanTopLangs() {
 }
 
 function sanitizeStreakStats(data, liveStats) {
-  const floor = 3088;
-  const targetTotal = Math.max(liveStats.totalContributions || floor, floor);
+  const targetTotal = liveStats.liveCalendarContributions || 2785;
   const targetStreak = Math.max(liveStats.currentStreak || 34, 34);
   const longestStreak = Math.max(liveStats.longestStreak || 34, targetStreak);
   const streakRange = liveStats.streakRange || 'Oct 14 - Nov 16';
@@ -495,6 +494,11 @@ async function main() {
   const statsLive = path.join(assetsDir, 'github-stats-live.svg');
   if (fs.existsSync(statsOrig)) {
     fs.copyFileSync(statsOrig, statsLive);
+  }
+  const streakOrig = path.join(assetsDir, 'streak-stats.svg');
+  const streakLive = path.join(assetsDir, 'streak-stats-live.svg');
+  if (fs.existsSync(streakOrig)) {
+    fs.copyFileSync(streakOrig, streakLive);
   }
 }
 

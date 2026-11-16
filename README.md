@@ -205,7 +205,7 @@ I am a senior **Software Engineering student** at **Adama Science and Technology
 
 <!-- GitHub Streak Stats with Explicit High-Contrast Colors (Vivid White & Cyan) -->
 <p align="center">
-  <img width="870" src="./assets/streak-stats.svg" alt="GitHub Streak Stats" />
+  <img width="870" src="./assets/streak-stats-live.svg" alt="GitHub Streak Stats" />
 </p>
 
 </div>
