@@ -123,7 +123,7 @@ function calculateDynamicStreak(days) {
 }
 
 async function fetchLiveGitHubStats(username) {
-  let totalContributions = 3016;
+  let totalContributions = 3088;
   let currentStreak = 34;
   let longestStreak = 34;
   let streakRange = 'Oct 14 - Nov 16';
@@ -210,7 +210,7 @@ async function fetchLiveGitHubStats(username) {
 }
 
 function sanitizeGitHubStats(data, liveStats) {
-  const total = Math.max(liveStats.totalContributions || 3016, 3016);
+  const total = Math.max(liveStats.totalContributions || 3088, 3088);
   const commitsFormatted = total >= 1000 ? `${(total / 1000).toFixed(1)}k` : `${total}`;
 
   // 1. Correct Total Commits dynamically
@@ -365,7 +365,7 @@ function generateCleanTopLangs() {
 }
 
 function sanitizeStreakStats(data, liveStats) {
-  const floor = 3016;
+  const floor = 3088;
   const targetTotal = Math.max(liveStats.totalContributions || floor, floor);
   const targetStreak = Math.max(liveStats.currentStreak || 34, 34);
   const longestStreak = Math.max(liveStats.longestStreak || 34, targetStreak);
