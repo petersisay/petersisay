@@ -489,6 +489,13 @@ async function main() {
   for (const card of cards) {
     await fetchWithFallbacks(card.name, card.urls, card.file, liveStats);
   }
+
+  // Also sync live cache-busted copy for immediate CDN display
+  const statsOrig = path.join(assetsDir, 'github-stats.svg');
+  const statsLive = path.join(assetsDir, 'github-stats-live.svg');
+  if (fs.existsSync(statsOrig)) {
+    fs.copyFileSync(statsOrig, statsLive);
+  }
 }
 
 main();

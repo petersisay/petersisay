@@ -195,7 +195,7 @@ I am a senior **Software Engineering student** at **Adama Science and Technology
 <table border="0" style="border: none;">
   <tr style="border: none;">
     <td style="border: none;" align="center">
-      <img width="460" src="./assets/github-stats.svg" alt="Petros's GitHub Stats" />
+      <img width="460" src="./assets/github-stats-live.svg" alt="Petros's GitHub Stats" />
     </td>
     <td style="border: none;" align="center">
       <img width="400" src="./assets/top-langs.svg" alt="Most Used Languages" />
