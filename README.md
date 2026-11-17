@@ -134,7 +134,7 @@ I am a senior **Software Engineering student** at **Adama Science and Technology
       <h3>🛠️ Lehulu — Ethiopian Services Marketplace</h3>
       <p><em>Production-grade marketplace connecting households and businesses with verified service professionals across Adama, Bishoftu, and Addis Ababa.</em></p>
       <ul>
-        <li><strong>Architecture:</strong> TypeScript, React, Tailwind CSS, Express REST API, MongoDB Atlas</li>
+        <li><strong>Architecture:</strong> JavaScript, React, Tailwind CSS, Node.js, Express REST API, MongoDB Atlas</li>
         <li><strong>Geospatial Boundaries:</strong> Location-based provider discovery with MongoDB <code>2dsphere</code> indexing</li>
         <li><strong>Governance:</strong> Dedicated portals for Customers, Service Providers, and Verification Admins</li>
       </ul>
