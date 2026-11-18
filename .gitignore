@@ -40,6 +40,7 @@ pnpm-debug.log*
 # Temporary & Scratch Files
 *.tmp
 *.temp
+scratch/
 scripts/temp*
 scripts/test*
 scripts/check*
