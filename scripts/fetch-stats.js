@@ -264,7 +264,7 @@ function generateCleanTopLangs() {
         aria-labelledby="descId"
       >
         <title id="titleId">Most Used Languages</title>
-        <desc id="descId">JavaScript 46.15%, TypeScript 31.03%, Dart 11.70%, Java 11.12%</desc>
+        <desc id="descId">JavaScript 68.00%, TypeScript 12.00%, Dart 10.00%, Java 10.00%</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -327,23 +327,23 @@ function generateCleanTopLangs() {
               <rect x="0" y="0" width="250" height="8" fill="white" rx="5"/>
             </mask>
             
-            <rect mask="url(#rect-mask)" data-testid="lang-progress" x="0" y="0" width="115.38" height="8" fill="#f1e05a"/>
-            <rect mask="url(#rect-mask)" data-testid="lang-progress" x="115.38" y="0" width="77.58" height="8" fill="#3178c6"/>
-            <rect mask="url(#rect-mask)" data-testid="lang-progress" x="192.96" y="0" width="29.25" height="8" fill="#00B4AB"/>
-            <rect mask="url(#rect-mask)" data-testid="lang-progress" x="222.21" y="0" width="27.79" height="8" fill="#b07219"/>
+            <rect mask="url(#rect-mask)" data-testid="lang-progress" x="0" y="0" width="170.00" height="8" fill="#f1e05a"/>
+            <rect mask="url(#rect-mask)" data-testid="lang-progress" x="170.00" y="0" width="30.00" height="8" fill="#3178c6"/>
+            <rect mask="url(#rect-mask)" data-testid="lang-progress" x="200.00" y="0" width="25.00" height="8" fill="#00B4AB"/>
+            <rect mask="url(#rect-mask)" data-testid="lang-progress" x="225.00" y="0" width="25.00" height="8" fill="#b07219"/>
 
             <g transform="translate(0, 25)">
               <g transform="translate(0, 0)">
                 <g transform="translate(0, 0)">
                   <g class="stagger" style="animation-delay: 450ms">
                     <circle cx="5" cy="6" r="5" fill="#f1e05a" />
-                    <text data-testid="lang-name" x="15" y="10" class="lang-name">JavaScript 46.15%</text>
+                    <text data-testid="lang-name" x="15" y="10" class="lang-name">JavaScript 68.00%</text>
                   </g>
                 </g>
                 <g transform="translate(0, 25)">
                   <g class="stagger" style="animation-delay: 600ms">
                     <circle cx="5" cy="6" r="5" fill="#3178c6" />
-                    <text data-testid="lang-name" x="15" y="10" class="lang-name">TypeScript 31.03%</text>
+                    <text data-testid="lang-name" x="15" y="10" class="lang-name">TypeScript 12.00%</text>
                   </g>
                 </g>
               </g>
@@ -351,13 +351,13 @@ function generateCleanTopLangs() {
                 <g transform="translate(0, 0)">
                   <g class="stagger" style="animation-delay: 750ms">
                     <circle cx="5" cy="6" r="5" fill="#00B4AB" />
-                    <text data-testid="lang-name" x="15" y="10" class="lang-name">Dart 11.70%</text>
+                    <text data-testid="lang-name" x="15" y="10" class="lang-name">Dart 10.00%</text>
                   </g>
                 </g>
                 <g transform="translate(0, 25)">
                   <g class="stagger" style="animation-delay: 900ms">
                     <circle cx="5" cy="6" r="5" fill="#b07219" />
-                    <text data-testid="lang-name" x="15" y="10" class="lang-name">Java 11.12%</text>
+                    <text data-testid="lang-name" x="15" y="10" class="lang-name">Java 10.00%</text>
                   </g>
                 </g>
               </g>
