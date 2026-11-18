@@ -199,7 +199,7 @@ I am a final-year **Software Engineering student** at **Adama Science and Techno
       <img width="460" src="./assets/github-stats-live.svg" alt="Petros's GitHub Stats" />
     </td>
     <td style="border: none;" align="center">
-      <img width="400" src="./assets/top-langs.svg" alt="Most Used Languages" />
+      <img width="400" src="./assets/top-langs-live.svg" alt="Most Used Languages" />
     </td>
   </tr>
 </table>
