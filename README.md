@@ -233,7 +233,7 @@ Whether you have an internship opportunity, an open-source collaboration idea, o
 | 🌐 **Personal Website** | `petros-portfolio-one.vercel.app` | [**Explore Portfolio**](https://petros-portfolio-one.vercel.app) |
 | 💼 **LinkedIn** | `Petros Sisay` | [**Connect on LinkedIn**](https://www.linkedin.com/in/petros-sisay-gelan/) |
 | 📧 **Direct Email** | `petrossisay1646@gmail.com` | [**Send Email**](mailto:petrossisay1646@gmail.com) |
-| 💬 **Telegram** | `@Petros_sisay` | [**Direct Message**](https://t.me/Petros_sisay) |
+| 💬 **Telegram** | `peter` | [**Direct Message**](https://t.me/Bezimbezam) |
 | 🐙 **GitHub** | `@petersisay` | [**Follow Profile**](https://github.com/petersisay) |
 
 <br />
