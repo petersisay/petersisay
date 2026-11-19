@@ -98,7 +98,7 @@ I am a final-year **Software Engineering student** at **Adama Science and Techno
 </div>
 
 ---
-
+<!--
 ## 🌟 Flagship Engineering Projects
 
 <table>
@@ -185,7 +185,7 @@ I am a final-year **Software Engineering student** at **Adama Science and Techno
     </td>
   </tr>
 </table>
-
+-->
 ---
 
 ## 📊 GitHub Analytics & Activity
