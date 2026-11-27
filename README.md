@@ -42,9 +42,9 @@
 
 ## ⚡ About Me
 
-I am a final-year **Software Engineering student** at **Adama Science and Technology University (ASTU)** in Ethiopia. I architect dependable full-stack web platforms and reactive mobile applications engineered to solve community, commercial, and educational challenges.
+I am a 4th year **Software Engineering student** at **Adama Science and Technology University (ASTU)** in Ethiopia. I architect dependable full-stack web platforms and reactive mobile applications engineered to solve community, commercial, and educational challenges.
 
-- 🎓 **Academic Excellence:** Final-year student focusing on software architecture, distributed systems, relational & NoSQL databases, data structures, and algorithms.
+- 🎓 **Academic Excellence:** 4th year student focusing on software architecture, distributed systems, relational & NoSQL databases, data structures, and algorithms.
 - 🌐 **Full-Stack MERN Architecture:** Specializing in end-to-end web platforms using **MongoDB**, **Express.js**, **React 19**, and **Node.js**, reinforced with **TypeScript**, Tailwind CSS, secure JWT authentication, and RESTful APIs.
 - 📱 **Cross-Platform Mobile:** Crafting high-performance native mobile experiences with **Flutter 3** and **Dart**, structured around **Clean Architecture**, reactive state management (**Riverpod / Provider**), and offline-first persistence.
 - 🌍 **Shipped Commercial & Civic Platforms:** Shipped production-ready applications including **Tekami** (reclaimed materials marketplace), **Lehulu** (local on-demand services), **TemariHub** (STEM career opportunities), and **CodeTogether** (real-time pair programming).
